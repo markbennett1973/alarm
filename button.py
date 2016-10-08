@@ -36,6 +36,6 @@ class Button:
                 if self.alarm.is_alarm_sounding():
                     self.alarm.stop_alarm()
                 else:
-                    self.display.update_display(self.alarm.get_next_alarm())
+                    self.display.update_display(self.alarm.get_next_alarm().strftime("%I%M").lstrip('0'))
 
             time.sleep(0.01)
