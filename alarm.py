@@ -11,8 +11,6 @@ class Alarm:
     nextAlarm = None
 
     def __init__(self):
-        pygame.mixer.init()
-        pygame.mixer.music.load("cherub_rock.mp3")
 
         thread = threading.Thread(target=self.get_google_data)
         thread.daemon = True
@@ -21,12 +19,17 @@ class Alarm:
         self.nextAlarm = datetime.datetime.strptime('Oct 8 2016  7:39PM', '%b %d %Y %I:%M%p')
 
     def sound_alarm(self):
+        pygame.mixer.init()
+        pygame.mixer.music.load("cherub_rock.mp3")
         pygame.mixer.music.play()
+
         self.nextAlarm = None
         self.alarmIsSounding = True
 
     def stop_alarm(self):
         pygame.mixer.music.stop()
+        pygame.mixer.quit()
+
         self.alarmIsSounding = False
 
     def get_next_alarm(self):
