@@ -22,7 +22,7 @@ class Timer:
             my_time = datetime.datetime.now()
             self.display.update_display(my_time.strftime("%I%M").lstrip('0'))
 
-            if my_time == self.alarm.get_next_alarm():
+            if my_time > self.alarm.get_next_alarm():
                 self.alarm.sound_alarm()
 
             time.sleep(1)

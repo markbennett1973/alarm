@@ -1,6 +1,7 @@
 import time
 import threading
 import datetime
+import pygame
 
 
 class Alarm:
@@ -10,16 +11,19 @@ class Alarm:
     nextAlarm = None
 
     def __init__(self):
-        # Nothing yet - will initialise display as in light_sensor.py
-        print "Init Alarm"
+        pygame.mixer.init()
+        pygame.mixer.music.load("cherub_rock.mp3")
+
         thread = threading.Thread(target=self.get_google_data)
         thread.daemon = True
         thread.start()
 
-        self.nextAlarm = datetime.datetime.strptime('Oct 17 2016  6:59PM', '%b %d %Y %I:%M%p')
+        self.nextAlarm = datetime.datetime.strptime('Oct 7 2016  7:13PM', '%b %d %Y %I:%M%p')
 
     def sound_alarm(self):
         # TODO: start the alarm sound
+        pygame.mixer.music.play()
+        self.nextAlarm = None
         self.alarmIsSounding = True
         print "Sounding alarm"
 
