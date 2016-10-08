@@ -7,7 +7,7 @@ import time
 my_display = display.Display()
 my_alarm = alarm.Alarm()
 my_button = button.Button(my_alarm, my_display)
-my_timer = timer.Timer(my_display, my_alarm)
+my_timer = timer.Timer(my_display, my_alarm, my_button)
 
 while True:
     time.sleep(1)

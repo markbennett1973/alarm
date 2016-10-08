@@ -34,6 +34,7 @@ class Button:
         while True:
             if not GPIO.input(self.pin_button_signal):
                 if self.alarm.is_alarm_sounding():
+                    self.set_light(False)
                     self.alarm.stop_alarm()
                     time.sleep(2)
 
