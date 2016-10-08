@@ -16,6 +16,7 @@ class Alarm:
         thread.daemon = True
         thread.start()
 
+        # Test alarm time
         self.nextAlarm = datetime.datetime.strptime('Oct 8 2016  7:39PM', '%b %d %Y %I:%M%p')
 
     def sound_alarm(self):
