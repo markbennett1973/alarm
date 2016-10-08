@@ -18,19 +18,16 @@ class Alarm:
         thread.daemon = True
         thread.start()
 
-        self.nextAlarm = datetime.datetime.strptime('Oct 7 2016  7:13PM', '%b %d %Y %I:%M%p')
+        self.nextAlarm = datetime.datetime.strptime('Oct 8 2016  7:39PM', '%b %d %Y %I:%M%p')
 
     def sound_alarm(self):
-        # TODO: start the alarm sound
         pygame.mixer.music.play()
         self.nextAlarm = None
         self.alarmIsSounding = True
-        print "Sounding alarm"
 
     def stop_alarm(self):
-        # TODO: stop the alarm sound
+        pygame.mixer.music.stop()
         self.alarmIsSounding = False
-        print "Stopping alarm"
 
     def get_next_alarm(self):
         return self.nextAlarm

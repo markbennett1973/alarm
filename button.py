@@ -35,7 +35,11 @@ class Button:
             if not GPIO.input(self.pin_button_signal):
                 if self.alarm.is_alarm_sounding():
                     self.alarm.stop_alarm()
+                    time.sleep(2)
+
                 else:
-                    self.display.update_display(self.alarm.get_next_alarm().strftime("%I%M").lstrip('0'))
+                    alarm_time = self.alarm.get_next_alarm()
+                    if alarm_time is not None:
+                        self.display.update_display(alarm_time.strftime("%I%M").lstrip('0'))
 
             time.sleep(0.01)
