@@ -17,6 +17,13 @@ class Button:
         thread.daemon = True
         thread.start()
 
+    def set_light(self, state):
+        # TODO: actually switch light on and off
+        if state:
+            print "Button light on"
+        else:
+            print "Button light off"
+
     def timer(self):
         while True:
             # TODO: get actual hardware button state
