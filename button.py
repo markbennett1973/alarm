@@ -1,5 +1,6 @@
 import threading
 import time
+import RPi.GPIO as GPIO
 
 
 class Button:
@@ -7,29 +8,31 @@ class Button:
 
     alarm = None
     display = None
+    pin_button_signal = 15
+    pin_button_light = 14
 
     def __init__(self, alarm, display):
-        print "Init Button"
         self.alarm = alarm
         self.display = display
+
+        GPIO.setwarnings(False)
+        GPIO.setmode(GPIO.BCM)
+        GPIO.setup(self.pin_button_light, GPIO.OUT)
+        GPIO.setup(self.pin_button_signal, GPIO.IN, pull_up_down=GPIO.PUD_UP)
 
         thread = threading.Thread(target=self.timer)
         thread.daemon = True
         thread.start()
 
     def set_light(self, state):
-        # TODO: actually switch light on and off
         if state:
-            print "Button light on"
+            GPIO.output(self.pin_button_light, GPIO.HIGH)
         else:
-            print "Button light off"
+            GPIO.output(self.pin_button_light, GPIO.LOW)
 
     def timer(self):
         while True:
-            # TODO: get actual hardware button state
-            print "Check button"
-            button_pressed = False
-            if button_pressed:
+            if not GPIO.input(self.pin_button_signal):
                 if self.alarm.is_alarm_sounding():
                     self.alarm.stop_alarm()
                 else:

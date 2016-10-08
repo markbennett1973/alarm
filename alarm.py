@@ -16,6 +16,8 @@ class Alarm:
         thread.daemon = True
         thread.start()
 
+        self.nextAlarm = datetime.datetime.strptime('Oct 17 2016  6:54PM', '%b %d %Y %I:%M%p')
+
     def sound_alarm(self):
         # TODO: start the alarm sound
         self.alarmIsSounding = True
@@ -34,6 +36,6 @@ class Alarm:
 
     def get_google_data(self):
         while True:
-            print "Get alarm data from Google"
-            self.nextAlarm = datetime.datetime.now().strftime("%d/%m/%Y %H:%M")
+            # print "Get alarm data from Google"
+            # self.nextAlarm = datetime.datetime.now().strftime("%d/%m/%Y %H:%M")
             time.sleep(5)
