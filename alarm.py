@@ -1,6 +1,5 @@
 import time
 import threading
-import datetime
 import pygame
 
 
@@ -9,15 +8,15 @@ class Alarm:
 
     alarmIsSounding = False
     nextAlarm = None
+    api = None
 
-    def __init__(self):
+    def __init__(self, api):
+        self.api = api
+        self.nextAlarm = self.api.get_next_alarm_event()
 
         thread = threading.Thread(target=self.get_google_data)
         thread.daemon = True
         thread.start()
-
-        # Test alarm time
-        self.nextAlarm = datetime.datetime.strptime('Oct 8 2016  7:39PM', '%b %d %Y %I:%M%p')
 
     def sound_alarm(self):
         pygame.mixer.init()
@@ -41,6 +40,5 @@ class Alarm:
 
     def get_google_data(self):
         while True:
-            # print "Get alarm data from Google"
-            # self.nextAlarm = datetime.datetime.now().strftime("%d/%m/%Y %H:%M")
-            time.sleep(5)
+            self.nextAlarm = self.api.get_next_alarm_event()
+            time.sleep(60)
