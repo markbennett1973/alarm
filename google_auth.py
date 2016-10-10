@@ -38,7 +38,7 @@ APPLICATION_NAME = 'Alarm Pi'
 
 
 def get_credentials():
-    """Gets valid user credentials from storage.
+    """ Gets valid user credentials from storage.
 
     If nothing has been stored, or if the stored credentials are invalid,
     the OAuth2 flow is completed to obtain the new credentials.
@@ -61,7 +61,7 @@ def get_credentials():
     return credentials
 
 def main():
-    """Shows basic usage of the Google Calendar API.
+    """ Shows basic usage of the Google Calendar API.
 
     Creates a Google Calendar API service object and outputs a list of the next
     10 events on the user's calendar.

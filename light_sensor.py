@@ -16,8 +16,11 @@ Lux = 0
 
 
 class LightSensor(object):
-
+    """ Interface to the light sensor
+    """
     def __init__(self):
+        """ Initialise the light sensor
+        """
         # Instantiate an I2C object
         self.i2cBus = smbus.SMBus(Bus_Number)
 
@@ -25,6 +28,8 @@ class LightSensor(object):
         self.i2cBus.write_byte_data(TSL2561_Address, 0x80, 0x03)
 
     def get_light_level(self):
+        """ Get the current light level in lux
+        """
         ambient_low_byte = self.i2cBus.read_byte_data(TSL2561_Address, 0x8c)
         ambient_high_byte = self.i2cBus.read_byte_data(TSL2561_Address, 0x8d)
         ambient = (ambient_high_byte*256)+ambient_low_byte

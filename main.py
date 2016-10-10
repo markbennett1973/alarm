@@ -5,6 +5,8 @@ import timer
 import time
 import google_api
 
+""" Initialise the alarm clock objects
+"""
 my_api = google_api.GoogleApi()
 my_display = display.Display()
 my_alarm = alarm.Alarm(my_api)

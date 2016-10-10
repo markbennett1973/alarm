@@ -7,6 +7,8 @@ import datetime
 
 
 class GoogleApi:
+    """ Get events from the Google Calendar API
+    """
     SCOPES = 'https://www.googleapis.com/auth/calendar.readonly'
     CLIENT_SECRET_FILE = 'client_secret.json'
     APPLICATION_NAME = 'Alarm Pi'
@@ -14,7 +16,7 @@ class GoogleApi:
     credentials = None
 
     def __init__(self):
-        """Gets valid user credentials from storage.
+        """ Get valid user credentials from storage.
         """
         store = Storage('google-credentials.json')
         self.credentials = store.get()
@@ -22,12 +24,12 @@ class GoogleApi:
             raise ValueError('Google API credentials invalid or not found - run google_auth.py in a desktop environment')
 
     def get_next_alarm_event(self):
-        """Get the next event from the calendar with the title "Alarm"
+        """ Get the next event from the calendar with the title "Alarm"
         """
         http = self.credentials.authorize(httplib2.Http())
         service = discovery.build('calendar', 'v3', http=http)
 
-        now = datetime.datetime.utcnow().isoformat() + 'Z' # 'Z' indicates UTC time
+        now = datetime.datetime.utcnow().isoformat() + 'Z'  # 'Z' indicates UTC time
         events_result = service.events().list(
             calendarId='primary', timeMin=now, maxResults=10, singleEvents=True,
             orderBy='startTime').execute()

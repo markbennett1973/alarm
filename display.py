@@ -3,12 +3,14 @@ import light_sensor
 
 
 class Display:
-    # Handle displaying data on the LCD screen
+    """ Handle displaying data on the LCD screen
+    """
     display = None
     sensor = None
 
     def __init__(self):
-        # Nothing yet - will initialise display as in light_sensor.py
+        """ Initialise the LCD display
+        """
         self.display = SevenSegment.SevenSegment()
         self.sensor = light_sensor.LightSensor()
 
@@ -16,9 +18,11 @@ class Display:
         self.display.set_colon(True)
 
     def update_display(self, time_string):
-        # Update the display with time
+        """ Update the LCD display
+        """
         self.display.print_number_str(time_string)
 
+        # Normalise light level from sensor to an integer between 0 and 15
         light_level = int(self.sensor.get_light_level())
         if light_level > 15:
             light_level = 15

@@ -4,22 +4,26 @@ import time
 
 
 class Timer:
-    # Handle displaying data on the LCD screen
+    """ Handle the main clock timer loop
+    """
     display = None
     alarm = None
     button = None
 
     def __init__(self, display, alarm, button):
-        print "Init Timer"
+        """ Start the background thread to manage the time
+        """
         self.display = display
         self.alarm = alarm
         self.button = button
 
-        thread = threading.Thread(target=self.timer)
+        thread = threading.Thread(target=self.__timer)
         thread.daemon = True
         thread.start()
 
-    def timer(self):
+    def __timer(self):
+        """ Background thread to update the time and sound the alarm
+        """
         while True:
             my_time = datetime.datetime.now()
             self.display.update_display(my_time.strftime("%I%M").lstrip('0'))
