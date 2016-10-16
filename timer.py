@@ -1,7 +1,7 @@
 import threading
 import datetime
 import time
-
+import pytz
 
 class Timer:
     """ Handle the main clock timer loop
@@ -25,7 +25,7 @@ class Timer:
         """ Background thread to update the time and sound the alarm
         """
         while True:
-            my_time = datetime.datetime.now()
+            my_time = datetime.datetime.now(pytz.utc)
             self.display.update_display(my_time.strftime("%I%M").lstrip('0'))
 
             if self.alarm.get_next_alarm() is not None and my_time > self.alarm.get_next_alarm():
