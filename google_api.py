@@ -4,6 +4,7 @@ from apiclient import discovery
 from oauth2client.file import Storage
 
 import datetime
+import dateutil.parser
 
 
 class GoogleApi:
@@ -39,4 +40,4 @@ class GoogleApi:
             for event in events:
                 start = event['start'].get('dateTime', event['start'].get('date'))
                 if event['summary'] == 'Alarm':
-                    return start
+                    return dateutil.parser.parse(start)
