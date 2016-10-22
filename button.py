@@ -1,6 +1,7 @@
 import threading
 import time
 import RPi.GPIO as GPIO
+import logging
 
 
 class Button:
@@ -20,6 +21,8 @@ class Button:
         self.alarm = alarm
         self.display = display
 
+        logging.info('Button:init')
+
         GPIO.setwarnings(False)
         GPIO.setmode(GPIO.BCM)
         GPIO.setup(self.pin_button_light, GPIO.OUT)
@@ -34,6 +37,7 @@ class Button:
             True = turn the light on
             False = turn the light off
         """
+        logging.debug('Setting light to %s', 'on' if state else 'off')
         if state:
             GPIO.output(self.pin_button_light, GPIO.HIGH)
         else:

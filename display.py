@@ -1,5 +1,6 @@
 from Adafruit_LED_Backpack import SevenSegment
 import light_sensor
+import logging
 
 
 class Display:
@@ -13,6 +14,8 @@ class Display:
         """
         self.display = SevenSegment.SevenSegment()
         self.sensor = light_sensor.LightSensor()
+
+        logging.info('Display:init')
 
         self.display.begin()
         self.display.set_colon(True)

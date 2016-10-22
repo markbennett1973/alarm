@@ -5,6 +5,7 @@ from oauth2client.file import Storage
 
 import datetime
 import dateutil.parser
+import logging
 
 
 class GoogleApi:
@@ -19,6 +20,7 @@ class GoogleApi:
     def __init__(self):
         """ Get valid user credentials from storage.
         """
+        logging.info('GoogleApi:init')
         store = Storage('google-credentials.json')
         self.credentials = store.get()
         if not self.credentials or self.credentials.invalid:
@@ -40,4 +42,7 @@ class GoogleApi:
             for event in events:
                 start = event['start'].get('dateTime', event['start'].get('date'))
                 if event['summary'] == 'Alarm':
+                    logging.info('Got alarm time %s from Google API', start)
                     return dateutil.parser.parse(start)
+
+        logging.info('No future alarms found from Google API')

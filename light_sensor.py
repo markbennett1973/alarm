@@ -1,5 +1,6 @@
 # Based on http://www.mogalla.net/201502/lichtsensor-tsl2561-am-raspberry
 import smbus
+import logging
 
 # Define variables and constants
 Bus_Number = 1
@@ -21,6 +22,8 @@ class LightSensor(object):
     def __init__(self):
         """ Initialise the light sensor
         """
+        logging.info('LightSensor:init')
+
         # Instantiate an I2C object
         self.i2cBus = smbus.SMBus(Bus_Number)
 
@@ -47,5 +50,7 @@ class LightSensor(object):
             lux = 0.00146*ambient-0.00112*ir
         else:
             lux = 0
+
+        logging.debug('Got light level %f', lux)
 
         return lux

@@ -1,6 +1,7 @@
 import time
 import threading
 import pygame
+import logging
 
 
 class Alarm:
@@ -17,6 +18,8 @@ class Alarm:
         self.api = api
         self.nextAlarm = self.api.get_next_alarm_event()
 
+        logging.info('Alarm:init')
+
         thread = threading.Thread(target=self.__get_google_data)
         thread.daemon = True
         thread.start()
@@ -24,6 +27,7 @@ class Alarm:
     def sound_alarm(self):
         """ Sound an alarm
         """
+        logging.debug('Alarm:sounding alarm')
         pygame.mixer.init()
         pygame.mixer.music.load("cherub_rock.mp3")
         pygame.mixer.music.play()
@@ -34,6 +38,7 @@ class Alarm:
     def stop_alarm(self):
         """ Stop an alarm from sounding
         """
+        logging.debug('Alarm:stopping alarm')
         pygame.mixer.music.stop()
         pygame.mixer.quit()
 
@@ -53,5 +58,6 @@ class Alarm:
         """ Background thread to periodically get the next alarm time
         """
         while True:
+            logging.debug('Alarm:getting next alarm event')
             self.nextAlarm = self.api.get_next_alarm_event()
             time.sleep(60)
