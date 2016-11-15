@@ -6,7 +6,7 @@ import time
 import google_api
 import logging
 
-logging.basicConfig(filename='alarm.log', level=logging.DEBUG)
+logging.basicConfig(format='%(asctime)s %(message)s', filename='alarm.log', level=logging.INFO)
 
 """ Initialise the alarm clock objects
 """

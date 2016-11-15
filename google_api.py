@@ -6,6 +6,7 @@ from oauth2client.file import Storage
 import datetime
 import dateutil.parser
 import logging
+import pytz
 
 
 class GoogleApi:
@@ -42,7 +43,9 @@ class GoogleApi:
             for event in events:
                 start = event['start'].get('dateTime', event['start'].get('date'))
                 if event['summary'] == 'Alarm':
-                    logging.info('Got alarm time %s from Google API', start)
-                    return dateutil.parser.parse(start)
+                    alarm_time = dateutil.parser.parse(start)
+                    if alarm_time > datetime.datetime.now(pytz.utc):
+                        logging.info('Got alarm time %s from Google API', start)
+                        return alarm_time
 
         logging.info('No future alarms found from Google API')
