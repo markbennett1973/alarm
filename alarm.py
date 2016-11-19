@@ -25,8 +25,6 @@ class Alarm:
         thread.daemon = True
         thread.start()
 
-        self.alarmVolumeThread = threading.Thread(target=self.__increase_alarm_volume())
-
     def sound_alarm(self):
         """ Sound an alarm
         """
@@ -41,6 +39,7 @@ class Alarm:
         self.nextAlarm = None
         self.alarmIsSounding = True
 
+        self.alarmVolumeThread = threading.Thread(target=self.__increase_alarm_volume())
         self.alarmVolumeThread.start()
 
     def stop_alarm(self):
@@ -73,4 +72,5 @@ class Alarm:
     def __increase_alarm_volume(self):
         while self.alarmIsSounding:
             pygame.mixer.music.set_volume(pygame.mixer.music.get_volume() + 0.1)
+            logging.debug('Alarm:set volume = ' + str(pygame.mixer.music.get_volume()))
             time.sleep(10)
