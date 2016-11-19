@@ -39,7 +39,11 @@ class LightSensor(object):
         ir_low_byte = self.i2cBus.read_byte_data(TSL2561_Address, 0x8e)
         ir_high_byte = self.i2cBus.read_byte_data(TSL2561_Address, 0x8f)
         ir = (ir_high_byte*256)+ir_low_byte
-        ratio = ir / float(ambient)
+        if ambient > 0:
+            ratio = ir / float(ambient)
+        else:
+            ratio = 0
+
         if 0 < ratio <= 0.50:
             lux = 0.0304*ambient-0.062*ambient*(ratio**1.4)
         elif 0.50 < ratio <= 0.61:
