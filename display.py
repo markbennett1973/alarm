@@ -23,6 +23,10 @@ class Display:
     def update_display(self, time_string):
         """ Update the LCD display
         """
+        if time_string.length < 4:
+            time_string = '    ' + time_string
+            time_string = time_string[-4:]
+
         self.display.print_number_str(time_string)
 
         # Normalise light level from sensor to an integer between 0 and 15
