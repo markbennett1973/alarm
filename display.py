@@ -23,7 +23,7 @@ class Display:
     def update_display(self, time_string):
         """ Update the LCD display
         """
-        if time_string.length < 4:
+        if len(time_string) < 4:
             time_string = '    ' + time_string
             time_string = time_string[-4:]
 
