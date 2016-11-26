@@ -30,9 +30,18 @@ class Display:
         self.display.print_number_str(time_string)
 
         # Normalise light level from sensor to an integer between 0 and 15
-        light_level = int(self.sensor.get_light_level())
-        if light_level > 15:
-            light_level = 15
+        light_level = self.normalise_light_level(int(self.sensor.get_light_level()))
+        logging.debug('Display: update brightness to ' + str(light_level))
 
         self.display.set_brightness(light_level)
         self.display.write_display()
+
+    def normalise_light_level(self, level):
+        if level < 0.05:
+            return 0
+        elif level < 0.1:
+            return 5
+        elif level < 0.2:
+            return 10
+        else:
+            return 15
