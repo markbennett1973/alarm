@@ -1,12 +1,15 @@
-from flask import Flask
 import file
+from flask import Blueprint
+from web_data import WebData
 
-app = Flask(__name__)
+routes = Blueprint('routes', __name__)
 
 
-@app.route("/")
+@routes.route("/")
 def index():
     return "<br/>".join(file.File.tail('alarm.log', 10))
 
-if __name__ == "__main__":
-    app.run(host='0.0.0.0', port=8080)
+
+@routes.route("/nextalarm")
+def next_alarm():
+    return WebData.get('alarm_time')

@@ -7,6 +7,7 @@ import datetime
 import dateutil.parser
 import logging
 import pytz
+from web_data import WebData
 
 
 class GoogleApi:
@@ -34,6 +35,7 @@ class GoogleApi:
         service = discovery.build('calendar', 'v3', http=http)
 
         now = datetime.datetime.utcnow().isoformat() + 'Z'  # 'Z' indicates UTC time
+        WebData.put('alarm_time_check', now)
         events_result = service.events().list(
             calendarId='primary', timeMin=now, maxResults=10, singleEvents=True,
             orderBy='startTime').execute()
@@ -46,6 +48,8 @@ class GoogleApi:
                     alarm_time = dateutil.parser.parse(start)
                     if alarm_time > datetime.datetime.now(pytz.utc):
                         logging.info('Got alarm time %s from Google API', start)
+                        WebData.put('alarm_time', alarm_time.isoformat() + 'Z')
                         return alarm_time
 
         logging.info('No future alarms found from Google API')
+        WebData.put('alarm_time', '')

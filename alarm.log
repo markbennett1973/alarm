@@ -1,0 +1,220 @@
+2016-12-04 16:49:24,926  * Running on http://0.0.0.0:8080/ (Press CTRL+C to quit)
+2016-12-04 16:49:27,812 127.0.0.1 - - [04/Dec/2016 16:49:27] "GET / HTTP/1.1" 200 -
+2016-12-04 16:49:30,116 127.0.0.1 - - [04/Dec/2016 16:49:30] "GET / HTTP/1.1" 200 -
+2016-12-04 16:49:31,128 127.0.0.1 - - [04/Dec/2016 16:49:31] "GET / HTTP/1.1" 200 -
+2016-12-04 16:49:31,565 127.0.0.1 - - [04/Dec/2016 16:49:31] "GET / HTTP/1.1" 200 -
+2016-12-04 16:49:31,946 127.0.0.1 - - [04/Dec/2016 16:49:31] "GET / HTTP/1.1" 200 -
+2016-12-04 16:49:32,446 127.0.0.1 - - [04/Dec/2016 16:49:32] "GET / HTTP/1.1" 200 -
+2016-12-04 16:49:32,743 127.0.0.1 - - [04/Dec/2016 16:49:32] "GET / HTTP/1.1" 200 -
+2016-12-04 16:49:33,047 127.0.0.1 - - [04/Dec/2016 16:49:33] "GET / HTTP/1.1" 200 -
+2016-12-04 16:49:33,357 127.0.0.1 - - [04/Dec/2016 16:49:33] "GET / HTTP/1.1" 200 -
+2016-12-04 16:49:33,760 127.0.0.1 - - [04/Dec/2016 16:49:33] "GET / HTTP/1.1" 200 -
+2016-12-04 16:50:25,373  * Running on http://0.0.0.0:8080/ (Press CTRL+C to quit)
+2016-12-04 16:50:27,719 127.0.0.1 - - [04/Dec/2016 16:50:27] "GET / HTTP/1.1" 404 -
+2016-12-04 16:50:44,773  * Running on http://0.0.0.0:8080/ (Press CTRL+C to quit)
+2016-12-04 16:50:46,786 127.0.0.1 - - [04/Dec/2016 16:50:46] "GET / HTTP/1.1" 404 -
+2016-12-04 16:50:47,492 127.0.0.1 - - [04/Dec/2016 16:50:47] "GET / HTTP/1.1" 404 -
+2016-12-04 16:50:47,787 127.0.0.1 - - [04/Dec/2016 16:50:47] "GET / HTTP/1.1" 404 -
+2016-12-04 16:50:47,973 127.0.0.1 - - [04/Dec/2016 16:50:47] "GET / HTTP/1.1" 404 -
+2016-12-04 16:50:48,139 127.0.0.1 - - [04/Dec/2016 16:50:48] "GET / HTTP/1.1" 404 -
+2016-12-04 16:53:02,090  * Running on http://0.0.0.0:8080/ (Press CTRL+C to quit)
+2016-12-04 16:53:05,166 127.0.0.1 - - [04/Dec/2016 16:53:05] "GET / HTTP/1.1" 404 -
+2016-12-04 16:53:05,825 127.0.0.1 - - [04/Dec/2016 16:53:05] "GET / HTTP/1.1" 404 -
+2016-12-04 16:53:06,055 127.0.0.1 - - [04/Dec/2016 16:53:06] "GET / HTTP/1.1" 404 -
+2016-12-04 16:53:06,228 127.0.0.1 - - [04/Dec/2016 16:53:06] "GET / HTTP/1.1" 404 -
+2016-12-04 16:56:56,772  * Running on http://0.0.0.0:8080/ (Press CTRL+C to quit)
+2016-12-04 16:56:59,841 127.0.0.1 - - [04/Dec/2016 16:56:59] "GET / HTTP/1.1" 200 -
+2016-12-04 16:57:01,246 127.0.0.1 - - [04/Dec/2016 16:57:01] "GET / HTTP/1.1" 200 -
+2016-12-04 16:57:02,019 127.0.0.1 - - [04/Dec/2016 16:57:02] "GET / HTTP/1.1" 200 -
+2016-12-04 16:57:02,404 127.0.0.1 - - [04/Dec/2016 16:57:02] "GET / HTTP/1.1" 200 -
+2016-12-04 16:57:02,761 127.0.0.1 - - [04/Dec/2016 16:57:02] "GET / HTTP/1.1" 200 -
+2016-12-04 16:57:03,329 127.0.0.1 - - [04/Dec/2016 16:57:03] "GET / HTTP/1.1" 200 -
+2016-12-04 16:57:03,870 127.0.0.1 - - [04/Dec/2016 16:57:03] "GET / HTTP/1.1" 200 -
+2016-12-04 16:57:04,130 127.0.0.1 - - [04/Dec/2016 16:57:04] "GET / HTTP/1.1" 200 -
+2016-12-04 16:57:04,543 127.0.0.1 - - [04/Dec/2016 16:57:04] "GET / HTTP/1.1" 200 -
+2016-12-04 16:57:04,776 127.0.0.1 - - [04/Dec/2016 16:57:04] "GET / HTTP/1.1" 200 -
+2016-12-04 16:57:05,251 127.0.0.1 - - [04/Dec/2016 16:57:05] "GET / HTTP/1.1" 200 -
+2016-12-04 16:57:05,616 127.0.0.1 - - [04/Dec/2016 16:57:05] "GET / HTTP/1.1" 200 -
+2016-12-04 16:57:05,848 127.0.0.1 - - [04/Dec/2016 16:57:05] "GET / HTTP/1.1" 200 -
+2016-12-04 16:57:06,057 127.0.0.1 - - [04/Dec/2016 16:57:06] "GET / HTTP/1.1" 200 -
+2016-12-04 16:57:06,260 127.0.0.1 - - [04/Dec/2016 16:57:06] "GET / HTTP/1.1" 200 -
+2016-12-04 16:57:06,462 127.0.0.1 - - [04/Dec/2016 16:57:06] "GET / HTTP/1.1" 200 -
+2016-12-04 16:57:06,677 127.0.0.1 - - [04/Dec/2016 16:57:06] "GET / HTTP/1.1" 200 -
+2016-12-04 16:57:06,989 127.0.0.1 - - [04/Dec/2016 16:57:06] "GET / HTTP/1.1" 200 -
+2016-12-06 20:45:47,657 GoogleApi:init
+2016-12-06 20:45:47,663 URL being requested: GET https://www.googleapis.com/discovery/v1/apis/calendar/v3/rest
+2016-12-06 20:45:47,912 URL being requested: GET https://www.googleapis.com/calendar/v3/calendars/primary/events?orderBy=startTime&alt=json&singleEvents=true&timeMin=2016-12-06T20%3A45%3A47.906838Z&maxResults=10
+2016-12-06 20:45:47,972 Refreshing due to a 401 (attempt 1/2)
+2016-12-06 20:45:47,973 Refreshing access_token
+2016-12-06 20:45:48,571 Got alarm time 2016-12-07T06:15:00Z from Google API
+2016-12-06 20:45:48,571 Alarm:init
+2016-12-06 20:45:48,586 URL being requested: GET https://www.googleapis.com/calendar/v3/calendars/primary/events?orderBy=startTime&alt=json&singleEvents=true&timeMin=2016-12-06T20%3A45%3A48.576564Z&maxResults=10
+2016-12-06 20:45:48,588  * Running on http://0.0.0.0:8080/ (Press CTRL+C to quit)
+2016-12-06 20:45:48,993 Got alarm time 2016-12-07T06:15:00Z from Google API
+2016-12-06 20:45:59,867 127.0.0.1 - - [06/Dec/2016 20:45:59] "GET / HTTP/1.1" 200 -
+2016-12-06 20:45:59,933 127.0.0.1 - - [06/Dec/2016 20:45:59] "GET /favicon.ico HTTP/1.1" 404 -
+2016-12-06 20:46:02,832 127.0.0.1 - - [06/Dec/2016 20:46:02] "GET / HTTP/1.1" 200 -
+2016-12-06 20:46:04,268 127.0.0.1 - - [06/Dec/2016 20:46:04] "GET / HTTP/1.1" 200 -
+2016-12-06 20:46:07,492 127.0.0.1 - - [06/Dec/2016 20:46:07] "GET / HTTP/1.1" 200 -
+2016-12-06 20:46:08,462 127.0.0.1 - - [06/Dec/2016 20:46:08] "GET / HTTP/1.1" 200 -
+2016-12-06 20:48:19,618 GoogleApi:init
+2016-12-06 20:48:19,632 URL being requested: GET https://www.googleapis.com/calendar/v3/calendars/primary/events?orderBy=startTime&alt=json&singleEvents=true&timeMin=2016-12-06T20%3A48%3A19.626685Z&maxResults=10
+2016-12-06 20:48:20,070 Got alarm time 2016-12-07T06:15:00Z from Google API
+2016-12-06 20:48:20,070 Alarm:init
+2016-12-06 20:48:20,105 URL being requested: GET https://www.googleapis.com/calendar/v3/calendars/primary/events?orderBy=startTime&alt=json&singleEvents=true&timeMin=2016-12-06T20%3A48%3A20.079625Z&maxResults=10
+2016-12-06 20:48:20,109  * Running on http://0.0.0.0:8080/ (Press CTRL+C to quit)
+2016-12-06 20:48:20,462 Got alarm time 2016-12-07T06:15:00Z from Google API
+2016-12-06 20:48:25,729 127.0.0.1 - - [06/Dec/2016 20:48:25] "GET / HTTP/1.1" 200 -
+2016-12-06 20:48:33,872 Exception on /nextalarm [GET]
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1988, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1641, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1544, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1639, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1625, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/mark/Projects/alarm/web.py", line 15, in nextalarm
+    return alarm.Alarm.get_next_alarm()
+TypeError: unbound method get_next_alarm() must be called with Alarm instance as first argument (got nothing instead)
+2016-12-06 20:48:33,885 127.0.0.1 - - [06/Dec/2016 20:48:33] "GET /nextalarm HTTP/1.1" 500 -
+2016-12-06 20:55:05,142 GoogleApi:init
+2016-12-06 20:55:05,156 URL being requested: GET https://www.googleapis.com/calendar/v3/calendars/primary/events?orderBy=startTime&alt=json&singleEvents=true&timeMin=2016-12-06T20%3A55%3A05.150423Z&maxResults=10
+2016-12-06 20:55:05,737 Got alarm time 2016-12-07T06:15:00Z from Google API
+2016-12-06 20:55:05,737 Alarm:init
+2016-12-06 20:55:05,751 URL being requested: GET https://www.googleapis.com/calendar/v3/calendars/primary/events?orderBy=startTime&alt=json&singleEvents=true&timeMin=2016-12-06T20%3A55%3A05.742033Z&maxResults=10
+2016-12-06 20:55:05,753  * Running on http://0.0.0.0:8080/ (Press CTRL+C to quit)
+2016-12-06 20:55:06,256 Got alarm time 2016-12-07T06:15:00Z from Google API
+2016-12-06 20:55:10,178 127.0.0.1 - - [06/Dec/2016 20:55:10] "GET /nextalarm HTTP/1.1" 200 -
+2016-12-06 21:04:48,506 GoogleApi:init
+2016-12-06 21:04:48,511 URL being requested: GET https://www.googleapis.com/discovery/v1/apis/calendar/v3/rest
+2016-12-06 21:04:48,726 URL being requested: GET https://www.googleapis.com/calendar/v3/calendars/primary/events?orderBy=startTime&alt=json&singleEvents=true&timeMin=2016-12-06T21%3A04%3A48.720402Z&maxResults=10
+2016-12-06 21:04:48,935 Got alarm time 2016-12-07T06:15:00Z from Google API
+2016-12-06 21:04:48,935 Alarm:init
+2016-12-06 21:04:48,937 GoogleApi:init
+2016-12-06 21:04:48,954 URL being requested: GET https://www.googleapis.com/calendar/v3/calendars/primary/events?orderBy=startTime&alt=json&singleEvents=true&timeMin=2016-12-06T21%3A04%3A48.944786Z&maxResults=10
+2016-12-06 21:04:48,964 URL being requested: GET https://www.googleapis.com/calendar/v3/calendars/primary/events?orderBy=startTime&alt=json&singleEvents=true&timeMin=2016-12-06T21%3A04%3A48.958787Z&maxResults=10
+2016-12-06 21:04:49,401 Got alarm time 2016-12-07T06:15:00Z from Google API
+2016-12-06 21:04:49,449 Got alarm time 2016-12-07T06:15:00Z from Google API
+2016-12-06 21:04:49,449 Alarm:init
+2016-12-06 21:04:49,479 URL being requested: GET https://www.googleapis.com/calendar/v3/calendars/primary/events?orderBy=startTime&alt=json&singleEvents=true&timeMin=2016-12-06T21%3A04%3A49.463613Z&maxResults=10
+2016-12-06 21:21:33,581 GoogleApi:init
+2016-12-06 21:21:33,601 URL being requested: GET https://www.googleapis.com/calendar/v3/calendars/primary/events?orderBy=startTime&alt=json&singleEvents=true&timeMin=2016-12-06T21%3A21%3A33.592027Z&maxResults=10
+2016-12-06 21:21:34,078 Got alarm time 2016-12-07T06:15:00Z from Google API
+2016-12-06 21:31:39,942 GoogleApi:init
+2016-12-06 21:31:39,948 URL being requested: GET https://www.googleapis.com/discovery/v1/apis/calendar/v3/rest
+2016-12-06 21:31:40,331 URL being requested: GET https://www.googleapis.com/calendar/v3/calendars/primary/events?orderBy=startTime&alt=json&singleEvents=true&timeMin=2016-12-06T21%3A31%3A40.311432Z&maxResults=10
+2016-12-06 21:31:40,690 Got alarm time 2016-12-07T06:15:00Z from Google API
+2016-12-06 21:38:30,060 GoogleApi:init
+2016-12-06 21:38:30,084 URL being requested: GET https://www.googleapis.com/calendar/v3/calendars/primary/events?orderBy=startTime&alt=json&singleEvents=true&timeMin=2016-12-06T21%3A38%3A30.074054Z&maxResults=10
+2016-12-06 21:38:30,603 Got alarm time 2016-12-07T06:15:00Z from Google API
+2016-12-06 21:38:30,603 Alarm:init
+2016-12-06 21:38:30,618 URL being requested: GET https://www.googleapis.com/calendar/v3/calendars/primary/events?orderBy=startTime&alt=json&singleEvents=true&timeMin=2016-12-06T21%3A38%3A30.608217Z&maxResults=10
+2016-12-06 21:38:30,620  * Running on http://0.0.0.0:8080/ (Press CTRL+C to quit)
+2016-12-06 21:38:30,980 Got alarm time 2016-12-07T06:15:00Z from Google API
+2016-12-06 21:38:38,455 127.0.0.1 - - [06/Dec/2016 21:38:38] "GET / HTTP/1.1" 200 -
+2016-12-06 21:38:38,510 127.0.0.1 - - [06/Dec/2016 21:38:38] "GET /favicon.ico HTTP/1.1" 404 -
+2016-12-06 21:38:44,206 127.0.0.1 - - [06/Dec/2016 21:38:44] "GET / HTTP/1.1" 200 -
+2016-12-06 21:38:45,969 127.0.0.1 - - [06/Dec/2016 21:38:45] "GET / HTTP/1.1" 200 -
+2016-12-06 21:43:31,115 URL being requested: GET https://www.googleapis.com/calendar/v3/calendars/primary/events?orderBy=startTime&alt=json&singleEvents=true&timeMin=2016-12-06T21%3A43%3A31.095676Z&maxResults=10
+2016-12-06 21:43:34,681 Got alarm time 2016-12-07T06:15:00Z from Google API
+2016-12-06 21:48:34,722 URL being requested: GET https://www.googleapis.com/calendar/v3/calendars/primary/events?orderBy=startTime&alt=json&singleEvents=true&timeMin=2016-12-06T21%3A48%3A34.713544Z&maxResults=10
+2016-12-06 21:48:34,964 Refreshing due to a 401 (attempt 1/2)
+2016-12-06 21:48:34,965 Refreshing access_token
+2016-12-06 21:48:35,589 Got alarm time 2016-12-07T06:15:00Z from Google API
+2016-12-06 21:53:37,926 GoogleApi:init
+2016-12-06 21:54:32,127 GoogleApi:init
+2016-12-06 21:55:07,359 GoogleApi:init
+2016-12-06 21:55:38,591 GoogleApi:init
+2016-12-06 21:55:38,606 URL being requested: GET https://www.googleapis.com/calendar/v3/calendars/primary/events?orderBy=startTime&alt=json&singleEvents=true&timeMin=2016-12-06T21%3A55%3A38.599868Z&maxResults=10
+2016-12-06 21:55:39,070 Got alarm time 2016-12-07T06:15:00Z from Google API
+2016-12-06 21:59:02,020 GoogleApi:init
+2016-12-06 21:59:12,392 GoogleApi:init
+2016-12-06 21:59:12,407 URL being requested: GET https://www.googleapis.com/calendar/v3/calendars/primary/events?orderBy=startTime&alt=json&singleEvents=true&timeMin=2016-12-06T21%3A59%3A12.401340Z&maxResults=10
+2016-12-06 21:59:12,847 Got alarm time 2016-12-07T06:15:00Z from Google API
+2016-12-06 22:00:32,526 GoogleApi:init
+2016-12-06 22:00:41,870 GoogleApi:init
+2016-12-06 22:00:41,884 URL being requested: GET https://www.googleapis.com/calendar/v3/calendars/primary/events?orderBy=startTime&alt=json&singleEvents=true&timeMin=2016-12-06T22%3A00%3A41.878126Z&maxResults=10
+2016-12-06 22:00:42,320 Got alarm time 2016-12-07T06:15:00Z from Google API
+2016-12-06 22:00:42,321 Alarm:init
+2016-12-06 22:00:42,355 URL being requested: GET https://www.googleapis.com/calendar/v3/calendars/primary/events?orderBy=startTime&alt=json&singleEvents=true&timeMin=2016-12-06T22%3A00%3A42.334785Z&maxResults=10
+2016-12-06 22:00:42,359  * Running on http://0.0.0.0:8080/ (Press CTRL+C to quit)
+2016-12-06 22:00:42,716 Got alarm time 2016-12-07T06:15:00Z from Google API
+2016-12-06 22:01:30,876 GoogleApi:init
+2016-12-06 22:01:30,890 URL being requested: GET https://www.googleapis.com/calendar/v3/calendars/primary/events?orderBy=startTime&alt=json&singleEvents=true&timeMin=2016-12-06T22%3A01%3A30.884331Z&maxResults=10
+2016-12-06 22:01:31,254 Got alarm time 2016-12-07T06:15:00Z from Google API
+2016-12-06 22:01:31,256 Alarm:init
+2016-12-06 22:01:31,285 URL being requested: GET https://www.googleapis.com/calendar/v3/calendars/primary/events?orderBy=startTime&alt=json&singleEvents=true&timeMin=2016-12-06T22%3A01%3A31.267690Z&maxResults=10
+2016-12-06 22:01:31,288  * Running on http://0.0.0.0:8080/ (Press CTRL+C to quit)
+2016-12-06 22:01:31,682 Got alarm time 2016-12-07T06:15:00Z from Google API
+2016-12-06 22:01:51,619 127.0.0.1 - - [06/Dec/2016 22:01:51] "GET / HTTP/1.1" 200 -
+2016-12-06 22:01:52,759 127.0.0.1 - - [06/Dec/2016 22:01:52] "GET / HTTP/1.1" 200 -
+2016-12-06 22:01:53,654 127.0.0.1 - - [06/Dec/2016 22:01:53] "GET / HTTP/1.1" 200 -
+2016-12-06 22:01:59,925 127.0.0.1 - - [06/Dec/2016 22:01:59] "GET /nextalarm HTTP/1.1" 200 -
+2016-12-06 22:04:35,854 GoogleApi:init
+2016-12-06 22:04:48,379 GoogleApi:init
+2016-12-06 22:04:48,393 URL being requested: GET https://www.googleapis.com/calendar/v3/calendars/primary/events?orderBy=startTime&alt=json&singleEvents=true&timeMin=2016-12-06T22%3A04%3A48.387656Z&maxResults=10
+2016-12-06 22:04:48,775 Got alarm time 2016-12-07T06:15:00Z from Google API
+2016-12-06 22:04:48,776 Alarm:init
+2016-12-06 22:04:48,815 URL being requested: GET https://www.googleapis.com/calendar/v3/calendars/primary/events?orderBy=startTime&alt=json&singleEvents=true&timeMin=2016-12-06T22%3A04%3A48.791605Z&maxResults=10
+2016-12-06 22:04:48,816  * Running on http://0.0.0.0:8080/ (Press CTRL+C to quit)
+2016-12-06 22:04:49,179 Got alarm time 2016-12-07T06:15:00Z from Google API
+2016-12-06 22:04:57,172 127.0.0.1 - - [06/Dec/2016 22:04:57] "GET /nextalarm HTTP/1.1" 200 -
+2016-12-06 22:06:37,193 Exception on /nextalarm [GET]
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1988, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1641, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1544, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1639, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1625, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/mark/Projects/alarm/web.py", line 16, in next_alarm
+    return WebData.get('alarm_time')
+  File "/home/mark/Projects/alarm/web_data.py", line 32, in get
+    data = json.load(f)
+KeyError: 'alarm_time'
+2016-12-06 22:06:37,202 127.0.0.1 - - [06/Dec/2016 22:06:37] "GET /nextalarm HTTP/1.1" 500 -
+2016-12-06 22:06:46,571 GoogleApi:init
+2016-12-06 22:06:46,585 URL being requested: GET https://www.googleapis.com/calendar/v3/calendars/primary/events?orderBy=startTime&alt=json&singleEvents=true&timeMin=2016-12-06T22%3A06%3A46.579621Z&maxResults=10
+2016-12-06 22:06:47,015 Got alarm time 2016-12-07T06:15:00Z from Google API
+2016-12-06 22:06:47,016 Alarm:init
+2016-12-06 22:06:47,037  * Running on http://0.0.0.0:8080/ (Press CTRL+C to quit)
+2016-12-06 22:06:47,053 URL being requested: GET https://www.googleapis.com/calendar/v3/calendars/primary/events?orderBy=startTime&alt=json&singleEvents=true&timeMin=2016-12-06T22%3A06%3A47.029993Z&maxResults=10
+2016-12-06 22:06:47,421 Got alarm time 2016-12-07T06:15:00Z from Google API
+2016-12-06 22:07:01,058 127.0.0.1 - - [06/Dec/2016 22:07:01] "GET /nextalarm HTTP/1.1" 200 -
+2016-12-06 22:07:06,641 127.0.0.1 - - [06/Dec/2016 22:07:06] "GET /nextalarm HTTP/1.1" 200 -
+2016-12-06 22:07:06,759 127.0.0.1 - - [06/Dec/2016 22:07:06] "GET /nextalarm HTTP/1.1" 200 -
+2016-12-06 22:07:15,146 Exception on /nextalarm [GET]
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1988, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1641, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1544, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1639, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1625, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/mark/Projects/alarm/web.py", line 16, in next_alarm
+    return WebData.get('alarm_time')
+  File "/home/mark/Projects/alarm/web_data.py", line 32, in get
+    data = json.load(f)
+  File "/usr/lib/python2.7/json/__init__.py", line 290, in load
+    **kw)
+  File "/usr/lib/python2.7/json/__init__.py", line 338, in loads
+    return _default_decoder.decode(s)
+  File "/usr/lib/python2.7/json/decoder.py", line 366, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/usr/lib/python2.7/json/decoder.py", line 384, in raw_decode
+    raise ValueError("No JSON object could be decoded")
+ValueError: No JSON object could be decoded
+2016-12-06 22:07:15,158 127.0.0.1 - - [06/Dec/2016 22:07:15] "GET /nextalarm HTTP/1.1" 500 -
+2016-12-06 22:07:25,229 127.0.0.1 - - [06/Dec/2016 22:07:25] "GET /nextalarm HTTP/1.1" 200 -
