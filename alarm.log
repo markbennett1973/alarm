@@ -218,3 +218,527 @@ Traceback (most recent call last):
 ValueError: No JSON object could be decoded
 2016-12-06 22:07:15,158 127.0.0.1 - - [06/Dec/2016 22:07:15] "GET /nextalarm HTTP/1.1" 500 -
 2016-12-06 22:07:25,229 127.0.0.1 - - [06/Dec/2016 22:07:25] "GET /nextalarm HTTP/1.1" 200 -
+2016-12-08 14:58:43,750 GoogleApi:init
+2016-12-08 14:58:43,756 URL being requested: GET https://www.googleapis.com/discovery/v1/apis/calendar/v3/rest
+2016-12-08 14:58:43,995 URL being requested: GET https://www.googleapis.com/calendar/v3/calendars/primary/events?orderBy=startTime&alt=json&singleEvents=true&timeMin=2016-12-08T14%3A58%3A43.974846Z&maxResults=10
+2016-12-08 14:58:44,085 Refreshing due to a 401 (attempt 1/2)
+2016-12-08 14:58:44,086 Refreshing access_token
+2016-12-08 14:58:44,833 Got alarm time 2016-12-09T06:15:00Z from Google API
+2016-12-08 14:58:44,833 Alarm:init
+2016-12-08 14:58:44,851 URL being requested: GET https://www.googleapis.com/calendar/v3/calendars/primary/events?orderBy=startTime&alt=json&singleEvents=true&timeMin=2016-12-08T14%3A58%3A44.840197Z&maxResults=10
+2016-12-08 14:58:44,851  * Running on http://0.0.0.0:8080/ (Press CTRL+C to quit)
+2016-12-08 14:58:45,378 Got alarm time 2016-12-09T06:15:00Z from Google API
+2016-12-08 14:58:47,968 127.0.0.1 - - [08/Dec/2016 14:58:47] "GET / HTTP/1.1" 200 -
+2016-12-08 14:58:48,025 127.0.0.1 - - [08/Dec/2016 14:58:48] "GET /favicon.ico HTTP/1.1" 404 -
+2016-12-08 14:58:57,290 127.0.0.1 - - [08/Dec/2016 14:58:57] "GET /log/5 HTTP/1.1" 200 -
+2016-12-08 14:59:01,672 127.0.0.1 - - [08/Dec/2016 14:59:01] "GET /log/10 HTTP/1.1" 200 -
+2016-12-08 14:59:05,084 127.0.0.1 - - [08/Dec/2016 14:59:05] "GET /log HTTP/1.1" 404 -
+2016-12-08 14:59:25,867 127.0.0.1 - - [08/Dec/2016 14:59:25] "GET /data/alarm_time HTTP/1.1" 200 -
+2016-12-08 14:59:28,908 127.0.0.1 - - [08/Dec/2016 14:59:28] "GET /data/alarm_timer HTTP/1.1" 200 -
+2016-12-08 14:59:51,891 127.0.0.1 - - [08/Dec/2016 14:59:51] "GET /data/alarm_time_check HTTP/1.1" 200 -
+2016-12-08 14:59:56,867 127.0.0.1 - - [08/Dec/2016 14:59:56] "GET /data/alarm_time HTTP/1.1" 200 -
+2016-12-08 15:03:45,490 URL being requested: GET https://www.googleapis.com/calendar/v3/calendars/primary/events?orderBy=startTime&alt=json&singleEvents=true&timeMin=2016-12-08T15%3A03%3A45.484281Z&maxResults=10
+2016-12-08 15:03:45,905 Got alarm time 2016-12-09T06:15:00Z from Google API
+2016-12-08 15:05:01,065 GoogleApi:init
+2016-12-08 15:05:01,080 URL being requested: GET https://www.googleapis.com/calendar/v3/calendars/primary/events?orderBy=startTime&alt=json&singleEvents=true&timeMin=2016-12-08T15%3A05%3A01.073914Z&maxResults=10
+2016-12-08 15:05:01,466 Got alarm time 2016-12-09T06:15:00Z from Google API
+2016-12-08 15:05:01,467 Alarm:init
+2016-12-08 15:05:01,484 URL being requested: GET https://www.googleapis.com/calendar/v3/calendars/primary/events?orderBy=startTime&alt=json&singleEvents=true&timeMin=2016-12-08T15%3A05%3A01.472077Z&maxResults=10
+2016-12-08 15:05:10,714 GoogleApi:init
+2016-12-08 15:05:10,728 URL being requested: GET https://www.googleapis.com/calendar/v3/calendars/primary/events?orderBy=startTime&alt=json&singleEvents=true&timeMin=2016-12-08T15%3A05%3A10.722401Z&maxResults=10
+2016-12-08 15:05:11,116 Got alarm time 2016-12-09T06:15:00Z from Google API
+2016-12-08 15:05:11,117 Alarm:init
+2016-12-08 15:05:11,139 URL being requested: GET https://www.googleapis.com/calendar/v3/calendars/primary/events?orderBy=startTime&alt=json&singleEvents=true&timeMin=2016-12-08T15%3A05%3A11.128767Z&maxResults=10
+2016-12-08 15:05:11,141  * Running on http://0.0.0.0:8080/ (Press CTRL+C to quit)
+2016-12-08 15:05:11,609 Got alarm time 2016-12-09T06:15:00Z from Google API
+2016-12-08 15:05:15,701 127.0.0.1 - - [08/Dec/2016 15:05:15] "GET /data/alarm_time HTTP/1.1" 200 -
+2016-12-08 15:05:21,695 127.0.0.1 - - [08/Dec/2016 15:05:21] "GET /loglevel/test HTTP/1.1" 200 -
+2016-12-08 15:05:26,083 127.0.0.1 - - [08/Dec/2016 15:05:26] "GET /loglevel/debug HTTP/1.1" 200 -
+2016-12-08 15:05:30,133 127.0.0.1 - - [08/Dec/2016 15:05:30] "GET /log/10 HTTP/1.1" 200 -
+2016-12-08 15:05:33,987 127.0.0.1 - - [08/Dec/2016 15:05:33] "GET /log/10 HTTP/1.1" 200 -
+2016-12-08 15:05:34,655 127.0.0.1 - - [08/Dec/2016 15:05:34] "GET /log/10 HTTP/1.1" 200 -
+2016-12-08 15:05:35,788 127.0.0.1 - - [08/Dec/2016 15:05:35] "GET /log/10 HTTP/1.1" 200 -
+2016-12-08 15:05:36,197 127.0.0.1 - - [08/Dec/2016 15:05:36] "GET /log/10 HTTP/1.1" 200 -
+2016-12-08 15:05:44,086 127.0.0.1 - - [08/Dec/2016 15:05:44] "GET /loglevel/info HTTP/1.1" 200 -
+2016-12-08 15:07:54,740 GoogleApi:init
+2016-12-08 15:07:54,755 URL being requested: GET https://www.googleapis.com/calendar/v3/calendars/primary/events?orderBy=startTime&alt=json&singleEvents=true&timeMin=2016-12-08T15%3A07%3A54.749029Z&maxResults=10
+2016-12-08 15:07:55,333 Got alarm time 2016-12-09T06:15:00Z from Google API
+2016-12-08 15:07:55,334 Alarm:init
+2016-12-08 15:07:55,350 URL being requested: GET https://www.googleapis.com/calendar/v3/calendars/primary/events?orderBy=startTime&alt=json&singleEvents=true&timeMin=2016-12-08T15%3A07%3A55.338849Z&maxResults=10
+2016-12-08 15:07:55,350  * Running on http://0.0.0.0:8080/ (Press CTRL+C to quit)
+2016-12-08 15:07:55,740 Got alarm time 2016-12-09T06:15:00Z from Google API
+2016-12-08 15:08:01,331 127.0.0.1 - - [08/Dec/2016 15:08:01] "GET /log/5 HTTP/1.1" 200 -
+2016-12-08 15:08:04,636 127.0.0.1 - - [08/Dec/2016 15:08:04] "GET / HTTP/1.1" 200 -
+2016-12-08 15:08:10,592 127.0.0.1 - - [08/Dec/2016 15:08:10] "GET / HTTP/1.1" 200 -
+2016-12-08 15:10:46,492 127.0.0.1 - - [08/Dec/2016 15:10:46] "GET / HTTP/1.1" 200 -
+2016-12-08 15:12:33,998 127.0.0.1 - - [08/Dec/2016 15:12:33] "GET / HTTP/1.1" 200 -
+2016-12-08 15:12:34,016 127.0.0.1 - - [08/Dec/2016 15:12:34] "GET /js/bootstrap.min.js HTTP/1.1" 404 -
+2016-12-08 15:12:34,193 127.0.0.1 - - [08/Dec/2016 15:12:34] "GET /js/bootstrap.min.js HTTP/1.1" 404 -
+2016-12-08 15:12:55,852 URL being requested: GET https://www.googleapis.com/calendar/v3/calendars/primary/events?orderBy=startTime&alt=json&singleEvents=true&timeMin=2016-12-08T15%3A12%3A55.845823Z&maxResults=10
+2016-12-08 15:12:56,410 Got alarm time 2016-12-09T06:15:00Z from Google API
+2016-12-08 15:13:12,521 127.0.0.1 - - [08/Dec/2016 15:13:12] "GET / HTTP/1.1" 200 -
+2016-12-08 15:13:12,533 127.0.0.1 - - [08/Dec/2016 15:13:12] "GET /js/bootstrap.min.js HTTP/1.1" 404 -
+2016-12-08 15:13:12,841 127.0.0.1 - - [08/Dec/2016 15:13:12] "GET /js/bootstrap.min.js HTTP/1.1" 404 -
+2016-12-08 15:14:44,200 127.0.0.1 - - [08/Dec/2016 15:14:44] "GET / HTTP/1.1" 200 -
+2016-12-08 15:14:44,210 127.0.0.1 - - [08/Dec/2016 15:14:44] "GET /js/bootstrap.min.js HTTP/1.1" 404 -
+2016-12-08 15:14:44,347 127.0.0.1 - - [08/Dec/2016 15:14:44] "GET /js/bootstrap.min.js HTTP/1.1" 404 -
+2016-12-08 15:16:50,459 127.0.0.1 - - [08/Dec/2016 15:16:50] "GET / HTTP/1.1" 200 -
+2016-12-08 15:16:50,487 127.0.0.1 - - [08/Dec/2016 15:16:50] "GET /js/bootstrap.min.js HTTP/1.1" 404 -
+2016-12-08 15:16:51,120 127.0.0.1 - - [08/Dec/2016 15:16:51] "GET /js/bootstrap.min.js HTTP/1.1" 404 -
+2016-12-08 15:17:56,457 URL being requested: GET https://www.googleapis.com/calendar/v3/calendars/primary/events?orderBy=startTime&alt=json&singleEvents=true&timeMin=2016-12-08T15%3A17%3A56.450952Z&maxResults=10
+2016-12-08 15:17:58,547 Got alarm time 2016-12-09T06:15:00Z from Google API
+2016-12-08 15:19:44,709 GoogleApi:init
+2016-12-08 15:19:44,723 URL being requested: GET https://www.googleapis.com/calendar/v3/calendars/primary/events?orderBy=startTime&alt=json&singleEvents=true&timeMin=2016-12-08T15%3A19%3A44.717542Z&maxResults=10
+2016-12-08 15:19:45,741 Got alarm time 2016-12-09T06:15:00Z from Google API
+2016-12-08 15:19:45,742 Alarm:init
+2016-12-08 15:19:45,758 URL being requested: GET https://www.googleapis.com/calendar/v3/calendars/primary/events?orderBy=startTime&alt=json&singleEvents=true&timeMin=2016-12-08T15%3A19%3A45.747360Z&maxResults=10
+2016-12-08 15:19:45,758  * Running on http://0.0.0.0:8080/ (Press CTRL+C to quit)
+2016-12-08 15:19:46,459 Got alarm time 2016-12-09T06:15:00Z from Google API
+2016-12-08 15:19:49,837 127.0.0.1 - - [08/Dec/2016 15:19:49] "GET / HTTP/1.1" 200 -
+2016-12-08 15:19:49,853 127.0.0.1 - - [08/Dec/2016 15:19:49] "GET /html/app.js HTTP/1.1" 404 -
+2016-12-08 15:19:51,020 127.0.0.1 - - [08/Dec/2016 15:19:51] "GET /html/app.js HTTP/1.1" 404 -
+2016-12-08 15:20:18,466 127.0.0.1 - - [08/Dec/2016 15:20:18] "GET /html/app.js HTTP/1.1" 404 -
+2016-12-08 15:21:53,793 GoogleApi:init
+2016-12-08 15:21:53,808 URL being requested: GET https://www.googleapis.com/calendar/v3/calendars/primary/events?orderBy=startTime&alt=json&singleEvents=true&timeMin=2016-12-08T15%3A21%3A53.801529Z&maxResults=10
+2016-12-08 15:22:02,150 Got alarm time 2016-12-09T06:15:00Z from Google API
+2016-12-08 15:22:02,150 Alarm:init
+2016-12-08 15:22:02,164 URL being requested: GET https://www.googleapis.com/calendar/v3/calendars/primary/events?orderBy=startTime&alt=json&singleEvents=true&timeMin=2016-12-08T15%3A22%3A02.155263Z&maxResults=10
+2016-12-08 15:22:02,167  * Running on http://0.0.0.0:8080/ (Press CTRL+C to quit)
+2016-12-08 15:22:03,123 Got alarm time 2016-12-09T06:15:00Z from Google API
+2016-12-08 15:22:05,713 127.0.0.1 - - [08/Dec/2016 15:22:05] "GET / HTTP/1.1" 200 -
+2016-12-08 15:22:05,727 127.0.0.1 - - [08/Dec/2016 15:22:05] "GET /css HTTP/1.1" 200 -
+2016-12-08 15:22:05,729 127.0.0.1 - - [08/Dec/2016 15:22:05] "GET /js HTTP/1.1" 200 -
+2016-12-08 15:22:13,441 127.0.0.1 - - [08/Dec/2016 15:22:13] "GET / HTTP/1.1" 200 -
+2016-12-08 15:22:13,463 127.0.0.1 - - [08/Dec/2016 15:22:13] "GET /css HTTP/1.1" 200 -
+2016-12-08 15:22:13,465 127.0.0.1 - - [08/Dec/2016 15:22:13] "GET /js HTTP/1.1" 200 -
+2016-12-08 15:23:47,340 127.0.0.1 - - [08/Dec/2016 15:23:47] "GET /data/alarm_time HTTP/1.1" 200 -
+2016-12-08 15:24:27,896 127.0.0.1 - - [08/Dec/2016 15:24:27] "GET /data/alarm_time HTTP/1.1" 200 -
+2016-12-08 15:24:41,872 127.0.0.1 - - [08/Dec/2016 15:24:41] "GET / HTTP/1.1" 200 -
+2016-12-08 15:24:41,893 127.0.0.1 - - [08/Dec/2016 15:24:41] "GET /css HTTP/1.1" 200 -
+2016-12-08 15:24:41,895 127.0.0.1 - - [08/Dec/2016 15:24:41] "GET /js HTTP/1.1" 200 -
+2016-12-08 15:24:42,102 127.0.0.1 - - [08/Dec/2016 15:24:42] "GET /data/alarm_time HTTP/1.1" 200 -
+2016-12-08 15:25:12,432 127.0.0.1 - - [08/Dec/2016 15:25:12] "GET / HTTP/1.1" 200 -
+2016-12-08 15:25:12,454 127.0.0.1 - - [08/Dec/2016 15:25:12] "GET /css HTTP/1.1" 200 -
+2016-12-08 15:25:12,456 127.0.0.1 - - [08/Dec/2016 15:25:12] "GET /js HTTP/1.1" 200 -
+2016-12-08 15:25:12,564 127.0.0.1 - - [08/Dec/2016 15:25:12] "GET /data/alarm_time HTTP/1.1" 200 -
+2016-12-08 15:25:54,443 127.0.0.1 - - [08/Dec/2016 15:25:54] "GET / HTTP/1.1" 200 -
+2016-12-08 15:25:54,472 127.0.0.1 - - [08/Dec/2016 15:25:54] "GET /css HTTP/1.1" 200 -
+2016-12-08 15:25:54,473 127.0.0.1 - - [08/Dec/2016 15:25:54] "GET /js HTTP/1.1" 200 -
+2016-12-08 15:25:54,643 127.0.0.1 - - [08/Dec/2016 15:25:54] "GET /data/alarm_time HTTP/1.1" 200 -
+2016-12-08 15:25:54,647 127.0.0.1 - - [08/Dec/2016 15:25:54] "GET /data/alarm_time_checked HTTP/1.1" 200 -
+2016-12-08 15:26:15,154 127.0.0.1 - - [08/Dec/2016 15:26:15] "GET / HTTP/1.1" 200 -
+2016-12-08 15:26:15,174 127.0.0.1 - - [08/Dec/2016 15:26:15] "GET /css HTTP/1.1" 200 -
+2016-12-08 15:26:15,175 127.0.0.1 - - [08/Dec/2016 15:26:15] "GET /js HTTP/1.1" 200 -
+2016-12-08 15:26:15,283 127.0.0.1 - - [08/Dec/2016 15:26:15] "GET /data/alarm_time HTTP/1.1" 200 -
+2016-12-08 15:26:15,288 127.0.0.1 - - [08/Dec/2016 15:26:15] "GET /data/alarm_time_check HTTP/1.1" 200 -
+2016-12-08 15:27:03,187 URL being requested: GET https://www.googleapis.com/calendar/v3/calendars/primary/events?orderBy=startTime&alt=json&singleEvents=true&timeMin=2016-12-08T15%3A27%3A03.180812Z&maxResults=10
+2016-12-08 15:27:03,544 Got alarm time 2016-12-09T06:15:00Z from Google API
+2016-12-08 15:27:18,886 127.0.0.1 - - [08/Dec/2016 15:27:18] "GET / HTTP/1.1" 200 -
+2016-12-08 15:27:18,904 127.0.0.1 - - [08/Dec/2016 15:27:18] "GET /css HTTP/1.1" 200 -
+2016-12-08 15:27:18,905 127.0.0.1 - - [08/Dec/2016 15:27:18] "GET /js HTTP/1.1" 200 -
+2016-12-08 15:27:19,089 127.0.0.1 - - [08/Dec/2016 15:27:19] "GET /data/alarm_time HTTP/1.1" 200 -
+2016-12-08 15:27:19,092 127.0.0.1 - - [08/Dec/2016 15:27:19] "GET /data/alarm_time_check HTTP/1.1" 200 -
+2016-12-08 15:27:29,323 127.0.0.1 - - [08/Dec/2016 15:27:29] "GET / HTTP/1.1" 200 -
+2016-12-08 15:27:29,339 127.0.0.1 - - [08/Dec/2016 15:27:29] "GET /css HTTP/1.1" 200 -
+2016-12-08 15:27:29,340 127.0.0.1 - - [08/Dec/2016 15:27:29] "GET /js HTTP/1.1" 200 -
+2016-12-08 15:27:29,532 127.0.0.1 - - [08/Dec/2016 15:27:29] "GET /data/alarm_time HTTP/1.1" 200 -
+2016-12-08 15:27:29,535 127.0.0.1 - - [08/Dec/2016 15:27:29] "GET /data/alarm_time_check HTTP/1.1" 200 -
+2016-12-08 15:29:15,478 127.0.0.1 - - [08/Dec/2016 15:29:15] "GET / HTTP/1.1" 200 -
+2016-12-08 15:29:15,500 127.0.0.1 - - [08/Dec/2016 15:29:15] "GET /css HTTP/1.1" 200 -
+2016-12-08 15:29:15,502 127.0.0.1 - - [08/Dec/2016 15:29:15] "GET /js HTTP/1.1" 200 -
+2016-12-08 15:29:15,713 127.0.0.1 - - [08/Dec/2016 15:29:15] "GET /data/alarm_time HTTP/1.1" 200 -
+2016-12-08 15:29:15,723 127.0.0.1 - - [08/Dec/2016 15:29:15] "GET /data/alarm_time_check HTTP/1.1" 200 -
+2016-12-08 15:29:15,728 127.0.0.1 - - [08/Dec/2016 15:29:15] "GET /log/10 HTTP/1.1" 200 -
+2016-12-08 15:29:23,633 127.0.0.1 - - [08/Dec/2016 15:29:23] "GET /log/5 HTTP/1.1" 200 -
+2016-12-08 15:29:27,705 127.0.0.1 - - [08/Dec/2016 15:29:27] "GET /log/6 HTTP/1.1" 200 -
+2016-12-08 15:29:31,376 127.0.0.1 - - [08/Dec/2016 15:29:31] "GET /log/7 HTTP/1.1" 200 -
+2016-12-08 15:29:36,743 127.0.0.1 - - [08/Dec/2016 15:29:36] "GET /log/10 HTTP/1.1" 200 -
+2016-12-08 15:30:34,306 127.0.0.1 - - [08/Dec/2016 15:30:34] "GET / HTTP/1.1" 200 -
+2016-12-08 15:30:34,330 127.0.0.1 - - [08/Dec/2016 15:30:34] "GET /css HTTP/1.1" 200 -
+2016-12-08 15:30:34,331 127.0.0.1 - - [08/Dec/2016 15:30:34] "GET /js HTTP/1.1" 200 -
+2016-12-08 15:30:35,456 127.0.0.1 - - [08/Dec/2016 15:30:35] "GET /data/alarm_time HTTP/1.1" 200 -
+2016-12-08 15:30:35,459 127.0.0.1 - - [08/Dec/2016 15:30:35] "GET /data/alarm_time_check HTTP/1.1" 200 -
+2016-12-08 15:30:35,462 127.0.0.1 - - [08/Dec/2016 15:30:35] "GET /log/10 HTTP/1.1" 200 -
+2016-12-08 15:31:06,473 127.0.0.1 - - [08/Dec/2016 15:31:06] "GET / HTTP/1.1" 200 -
+2016-12-08 15:31:06,494 127.0.0.1 - - [08/Dec/2016 15:31:06] "GET /css HTTP/1.1" 200 -
+2016-12-08 15:31:06,497 127.0.0.1 - - [08/Dec/2016 15:31:06] "GET /js HTTP/1.1" 200 -
+2016-12-08 15:31:06,616 127.0.0.1 - - [08/Dec/2016 15:31:06] "GET /data/alarm_time HTTP/1.1" 200 -
+2016-12-08 15:31:06,619 127.0.0.1 - - [08/Dec/2016 15:31:06] "GET /data/alarm_time_check HTTP/1.1" 200 -
+2016-12-08 15:31:06,625 127.0.0.1 - - [08/Dec/2016 15:31:06] "GET /log/10 HTTP/1.1" 200 -
+2016-12-08 15:32:03,667 URL being requested: GET https://www.googleapis.com/calendar/v3/calendars/primary/events?orderBy=startTime&alt=json&singleEvents=true&timeMin=2016-12-08T15%3A32%3A03.656559Z&maxResults=10
+2016-12-08 15:32:04,159 Got alarm time 2016-12-09T06:15:00Z from Google API
+2016-12-08 15:32:24,942 127.0.0.1 - - [08/Dec/2016 15:32:24] "GET / HTTP/1.1" 200 -
+2016-12-08 15:32:24,958 127.0.0.1 - - [08/Dec/2016 15:32:24] "GET /css HTTP/1.1" 200 -
+2016-12-08 15:32:24,960 127.0.0.1 - - [08/Dec/2016 15:32:24] "GET /js HTTP/1.1" 200 -
+2016-12-08 15:32:25,176 127.0.0.1 - - [08/Dec/2016 15:32:25] "GET /data/alarm_time HTTP/1.1" 200 -
+2016-12-08 15:32:25,177 127.0.0.1 - - [08/Dec/2016 15:32:25] "GET /data/alarm_time_check HTTP/1.1" 200 -
+2016-12-08 15:32:25,195 127.0.0.1 - - [08/Dec/2016 15:32:25] "GET /log/10 HTTP/1.1" 200 -
+2016-12-08 15:32:39,131 127.0.0.1 - - [08/Dec/2016 15:32:39] "GET / HTTP/1.1" 200 -
+2016-12-08 15:32:39,147 127.0.0.1 - - [08/Dec/2016 15:32:39] "GET /css HTTP/1.1" 200 -
+2016-12-08 15:32:39,149 127.0.0.1 - - [08/Dec/2016 15:32:39] "GET /js HTTP/1.1" 200 -
+2016-12-08 15:32:39,288 127.0.0.1 - - [08/Dec/2016 15:32:39] "GET /data/alarm_time HTTP/1.1" 200 -
+2016-12-08 15:32:39,292 127.0.0.1 - - [08/Dec/2016 15:32:39] "GET /data/alarm_time_check HTTP/1.1" 200 -
+2016-12-08 15:32:39,294 127.0.0.1 - - [08/Dec/2016 15:32:39] "GET /log/10 HTTP/1.1" 200 -
+2016-12-08 15:37:04,233 URL being requested: GET https://www.googleapis.com/calendar/v3/calendars/primary/events?orderBy=startTime&alt=json&singleEvents=true&timeMin=2016-12-08T15%3A37%3A04.223359Z&maxResults=10
+2016-12-08 15:37:04,751 Got alarm time 2016-12-09T06:15:00Z from Google API
+2016-12-08 15:38:49,483 GoogleApi:init
+2016-12-08 15:38:49,497 URL being requested: GET https://www.googleapis.com/calendar/v3/calendars/primary/events?orderBy=startTime&alt=json&singleEvents=true&timeMin=2016-12-08T15%3A38%3A49.491407Z&maxResults=10
+2016-12-08 15:38:49,865 Got alarm time 2016-12-09T06:15:00Z from Google API
+2016-12-08 15:38:49,866 Alarm:init
+2016-12-08 15:38:49,875  * Running on http://0.0.0.0:8080/ (Press CTRL+C to quit)
+2016-12-08 15:38:49,882 URL being requested: GET https://www.googleapis.com/calendar/v3/calendars/primary/events?orderBy=startTime&alt=json&singleEvents=true&timeMin=2016-12-08T15%3A38%3A49.871383Z&maxResults=10
+2016-12-08 15:38:50,253 Got alarm time 2016-12-09T06:15:00Z from Google API
+2016-12-08 15:38:52,770 127.0.0.1 - - [08/Dec/2016 15:38:52] "GET / HTTP/1.1" 200 -
+2016-12-08 15:38:52,800 127.0.0.1 - - [08/Dec/2016 15:38:52] "GET /css HTTP/1.1" 200 -
+2016-12-08 15:38:52,803 127.0.0.1 - - [08/Dec/2016 15:38:52] "GET /js HTTP/1.1" 200 -
+2016-12-08 15:38:52,972 127.0.0.1 - - [08/Dec/2016 15:38:52] "GET /data/alarm_time HTTP/1.1" 200 -
+2016-12-08 15:38:52,973 127.0.0.1 - - [08/Dec/2016 15:38:52] "GET /data/alarm_time_check HTTP/1.1" 200 -
+2016-12-08 15:38:52,975 127.0.0.1 - - [08/Dec/2016 15:38:52] "GET /log/10 HTTP/1.1" 200 -
+2016-12-08 15:39:05,669 127.0.0.1 - - [08/Dec/2016 15:39:05] "GET /log/9 HTTP/1.1" 200 -
+2016-12-08 15:39:10,651 127.0.0.1 - - [08/Dec/2016 15:39:10] "GET /log/10 HTTP/1.1" 200 -
+2016-12-08 15:39:16,526 127.0.0.1 - - [08/Dec/2016 15:39:16] "GET /log/11 HTTP/1.1" 200 -
+2016-12-08 15:40:17,523 127.0.0.1 - - [08/Dec/2016 15:40:17] "GET / HTTP/1.1" 200 -
+2016-12-08 15:40:17,538 127.0.0.1 - - [08/Dec/2016 15:40:17] "GET /css HTTP/1.1" 200 -
+2016-12-08 15:40:17,541 127.0.0.1 - - [08/Dec/2016 15:40:17] "GET /js HTTP/1.1" 200 -
+2016-12-08 15:40:17,724 127.0.0.1 - - [08/Dec/2016 15:40:17] "GET /data/alarm_time HTTP/1.1" 200 -
+2016-12-08 15:40:17,726 127.0.0.1 - - [08/Dec/2016 15:40:17] "GET /data/alarm_time_check HTTP/1.1" 200 -
+2016-12-08 15:40:17,729 127.0.0.1 - - [08/Dec/2016 15:40:17] "GET /log/10 HTTP/1.1" 200 -
+2016-12-08 15:40:17,734 Log level set to debug
+2016-12-08 15:40:17,734 127.0.0.1 - - [08/Dec/2016 15:40:17] "GET /loglevel/debug HTTP/1.1" 200 -
+2016-12-08 15:40:17,737 Log level set to info
+2016-12-08 15:40:17,737 127.0.0.1 - - [08/Dec/2016 15:40:17] "GET /loglevel/info HTTP/1.1" 200 -
+2016-12-08 15:40:17,794 127.0.0.1 - - [08/Dec/2016 15:40:17] "GET /log/10 HTTP/1.1" 200 -
+2016-12-08 15:40:17,797 127.0.0.1 - - [08/Dec/2016 15:40:17] "GET /log/10 HTTP/1.1" 200 -
+2016-12-08 15:40:17,800 127.0.0.1 - - [08/Dec/2016 15:40:17] "GET /log/10 HTTP/1.1" 200 -
+2016-12-08 15:40:29,175 127.0.0.1 - - [08/Dec/2016 15:40:29] "GET /log/11 HTTP/1.1" 200 -
+2016-12-08 15:40:54,091 127.0.0.1 - - [08/Dec/2016 15:40:54] "GET / HTTP/1.1" 200 -
+2016-12-08 15:40:54,114 127.0.0.1 - - [08/Dec/2016 15:40:54] "GET /css HTTP/1.1" 200 -
+2016-12-08 15:40:54,118 127.0.0.1 - - [08/Dec/2016 15:40:54] "GET /js HTTP/1.1" 200 -
+2016-12-08 15:40:54,285 127.0.0.1 - - [08/Dec/2016 15:40:54] "GET /data/alarm_time HTTP/1.1" 200 -
+2016-12-08 15:40:54,287 127.0.0.1 - - [08/Dec/2016 15:40:54] "GET /data/alarm_time_check HTTP/1.1" 200 -
+2016-12-08 15:40:54,289 127.0.0.1 - - [08/Dec/2016 15:40:54] "GET /log/10 HTTP/1.1" 200 -
+2016-12-08 15:40:54,298 Log level set to debug
+2016-12-08 15:40:54,298 127.0.0.1 - - [08/Dec/2016 15:40:54] "GET /loglevel/debug HTTP/1.1" 200 -
+2016-12-08 15:40:54,299 Log level set to info
+2016-12-08 15:40:54,299 127.0.0.1 - - [08/Dec/2016 15:40:54] "GET /loglevel/info HTTP/1.1" 200 -
+2016-12-08 15:42:49,344 Log level set to debug
+2016-12-08 15:42:49,344 127.0.0.1 - - [08/Dec/2016 15:42:49] "GET /loglevel/debug HTTP/1.1" 200 -
+2016-12-08 15:42:54,526 Log level set to info
+2016-12-08 15:42:54,527 127.0.0.1 - - [08/Dec/2016 15:42:54] "GET /loglevel/info HTTP/1.1" 200 -
+2016-12-08 15:46:42,025 Log level set to info
+2016-12-08 15:46:42,026 127.0.0.1 - - [08/Dec/2016 15:46:42] "GET /loglevel/info HTTP/1.1" 200 -
+2016-12-08 15:46:42,034 127.0.0.1 - - [08/Dec/2016 15:46:42] "GET /log/10 HTTP/1.1" 200 -
+2016-12-08 15:46:44,734 Log level set to debug
+2016-12-08 15:46:44,735 127.0.0.1 - - [08/Dec/2016 15:46:44] "GET /loglevel/debug HTTP/1.1" 200 -
+2016-12-08 15:46:44,738 127.0.0.1 - - [08/Dec/2016 15:46:44] "GET /log/10 HTTP/1.1" 200 -
+2016-12-08 15:46:49,957 Log level set to debug
+2016-12-08 15:46:49,957 127.0.0.1 - - [08/Dec/2016 15:46:49] "GET /loglevel/debug HTTP/1.1" 200 -
+2016-12-08 15:46:49,963 127.0.0.1 - - [08/Dec/2016 15:46:49] "GET /log/10 HTTP/1.1" 200 -
+2016-12-08 15:47:59,202 127.0.0.1 - - [08/Dec/2016 15:47:59] "GET / HTTP/1.1" 200 -
+2016-12-08 15:47:59,217 127.0.0.1 - - [08/Dec/2016 15:47:59] "GET /css HTTP/1.1" 200 -
+2016-12-08 15:47:59,226 127.0.0.1 - - [08/Dec/2016 15:47:59] "GET /js HTTP/1.1" 200 -
+2016-12-08 15:47:59,356 127.0.0.1 - - [08/Dec/2016 15:47:59] "GET /data/alarm_time HTTP/1.1" 200 -
+2016-12-08 15:47:59,357 127.0.0.1 - - [08/Dec/2016 15:47:59] "GET /data/alarm_time_check HTTP/1.1" 200 -
+2016-12-08 15:47:59,358 127.0.0.1 - - [08/Dec/2016 15:47:59] "GET /log/10 HTTP/1.1" 200 -
+2016-12-08 15:48:07,467 127.0.0.1 - - [08/Dec/2016 15:48:07] "GET / HTTP/1.1" 200 -
+2016-12-08 15:48:07,481 127.0.0.1 - - [08/Dec/2016 15:48:07] "GET /css HTTP/1.1" 200 -
+2016-12-08 15:48:07,483 127.0.0.1 - - [08/Dec/2016 15:48:07] "GET /js HTTP/1.1" 200 -
+2016-12-08 15:48:07,625 127.0.0.1 - - [08/Dec/2016 15:48:07] "GET /data/alarm_time HTTP/1.1" 200 -
+2016-12-08 15:48:07,629 127.0.0.1 - - [08/Dec/2016 15:48:07] "GET /data/alarm_time_check HTTP/1.1" 200 -
+2016-12-08 15:48:07,631 127.0.0.1 - - [08/Dec/2016 15:48:07] "GET /log/10 HTTP/1.1" 200 -
+2016-12-08 15:49:26,906 Log level set to info
+2016-12-08 15:49:26,907 127.0.0.1 - - [08/Dec/2016 15:49:26] "GET /loglevel/info HTTP/1.1" 200 -
+2016-12-08 15:49:26,917 127.0.0.1 - - [08/Dec/2016 15:49:26] "GET /log/10 HTTP/1.1" 200 -
+2016-12-08 15:53:51,309 URL being requested: GET https://www.googleapis.com/calendar/v3/calendars/primary/events?orderBy=startTime&alt=json&singleEvents=true&timeMin=2016-12-08T15%3A53%3A51.299550Z&maxResults=10
+2016-12-08 15:53:51,768 Got alarm time 2016-12-09T06:15:00Z from Google API
+2016-12-08 15:58:51,855 URL being requested: GET https://www.googleapis.com/calendar/v3/calendars/primary/events?orderBy=startTime&alt=json&singleEvents=true&timeMin=2016-12-08T15%3A58%3A51.835188Z&maxResults=10
+2016-12-08 15:58:52,076 Refreshing due to a 401 (attempt 1/2)
+2016-12-08 15:58:52,076 Refreshing access_token
+2016-12-08 15:58:52,750 Got alarm time 2016-12-09T06:15:00Z from Google API
+2016-12-08 16:03:52,859 URL being requested: GET https://www.googleapis.com/calendar/v3/calendars/primary/events?orderBy=startTime&alt=json&singleEvents=true&timeMin=2016-12-08T16%3A03%3A52.853261Z&maxResults=10
+2016-12-08 16:03:53,250 Got alarm time 2016-12-09T06:15:00Z from Google API
+2016-12-08 16:08:53,394 URL being requested: GET https://www.googleapis.com/calendar/v3/calendars/primary/events?orderBy=startTime&alt=json&singleEvents=true&timeMin=2016-12-08T16%3A08%3A53.375763Z&maxResults=10
+2016-12-08 16:08:53,792 Got alarm time 2016-12-09T06:15:00Z from Google API
+2016-12-08 16:12:37,614 127.0.0.1 - - [08/Dec/2016 16:12:37] "GET / HTTP/1.1" 200 -
+2016-12-08 16:12:37,631 127.0.0.1 - - [08/Dec/2016 16:12:37] "GET /css HTTP/1.1" 200 -
+2016-12-08 16:12:37,632 127.0.0.1 - - [08/Dec/2016 16:12:37] "GET /js HTTP/1.1" 200 -
+2016-12-08 16:12:37,904 127.0.0.1 - - [08/Dec/2016 16:12:37] "GET /data/alarm_time HTTP/1.1" 200 -
+2016-12-08 16:12:37,905 127.0.0.1 - - [08/Dec/2016 16:12:37] "GET /data/alarm_time_check HTTP/1.1" 200 -
+2016-12-08 16:12:37,906 127.0.0.1 - - [08/Dec/2016 16:12:37] "GET /log/10 HTTP/1.1" 200 -
+2016-12-08 16:12:50,048 127.0.0.1 - - [08/Dec/2016 16:12:50] "GET / HTTP/1.1" 200 -
+2016-12-08 16:12:50,065 127.0.0.1 - - [08/Dec/2016 16:12:50] "GET /css HTTP/1.1" 200 -
+2016-12-08 16:12:50,067 127.0.0.1 - - [08/Dec/2016 16:12:50] "GET /js HTTP/1.1" 200 -
+2016-12-08 16:12:50,272 127.0.0.1 - - [08/Dec/2016 16:12:50] "GET /data/alarm_time_check HTTP/1.1" 200 -
+2016-12-08 16:12:50,273 127.0.0.1 - - [08/Dec/2016 16:12:50] "GET /data/alarm_time HTTP/1.1" 200 -
+2016-12-08 16:12:50,275 127.0.0.1 - - [08/Dec/2016 16:12:50] "GET /log/10 HTTP/1.1" 200 -
+2016-12-08 16:12:53,591 127.0.0.1 - - [08/Dec/2016 16:12:53] "GET /log/100 HTTP/1.1" 200 -
+2016-12-08 16:13:15,436 127.0.0.1 - - [08/Dec/2016 16:13:15] "GET / HTTP/1.1" 200 -
+2016-12-08 16:13:15,468 127.0.0.1 - - [08/Dec/2016 16:13:15] "GET /css HTTP/1.1" 200 -
+2016-12-08 16:13:15,471 127.0.0.1 - - [08/Dec/2016 16:13:15] "GET /js HTTP/1.1" 200 -
+2016-12-08 16:13:15,584 127.0.0.1 - - [08/Dec/2016 16:13:15] "GET /data/alarm_time HTTP/1.1" 200 -
+2016-12-08 16:13:15,588 127.0.0.1 - - [08/Dec/2016 16:13:15] "GET /data/alarm_time_check HTTP/1.1" 200 -
+2016-12-08 16:13:15,592 127.0.0.1 - - [08/Dec/2016 16:13:15] "GET /log/10 HTTP/1.1" 200 -
+2016-12-08 16:13:38,376 127.0.0.1 - - [08/Dec/2016 16:13:38] "GET / HTTP/1.1" 200 -
+2016-12-08 16:13:38,404 127.0.0.1 - - [08/Dec/2016 16:13:38] "GET /css HTTP/1.1" 200 -
+2016-12-08 16:13:38,406 127.0.0.1 - - [08/Dec/2016 16:13:38] "GET /js HTTP/1.1" 200 -
+2016-12-08 16:13:38,550 127.0.0.1 - - [08/Dec/2016 16:13:38] "GET /data/alarm_time HTTP/1.1" 200 -
+2016-12-08 16:13:38,553 127.0.0.1 - - [08/Dec/2016 16:13:38] "GET /data/alarm_time_check HTTP/1.1" 200 -
+2016-12-08 16:13:38,556 127.0.0.1 - - [08/Dec/2016 16:13:38] "GET /log/10 HTTP/1.1" 200 -
+2016-12-08 16:13:41,095 127.0.0.1 - - [08/Dec/2016 16:13:41] "GET /log/100 HTTP/1.1" 200 -
+2016-12-08 16:13:53,861 URL being requested: GET https://www.googleapis.com/calendar/v3/calendars/primary/events?orderBy=startTime&alt=json&singleEvents=true&timeMin=2016-12-08T16%3A13%3A53.855053Z&maxResults=10
+2016-12-08 16:13:54,384 Got alarm time 2016-12-09T06:15:00Z from Google API
+2016-12-08 16:16:22,644 127.0.0.1 - - [08/Dec/2016 16:16:22] "GET / HTTP/1.1" 200 -
+2016-12-08 16:16:22,662 127.0.0.1 - - [08/Dec/2016 16:16:22] "GET /css HTTP/1.1" 200 -
+2016-12-08 16:16:22,664 127.0.0.1 - - [08/Dec/2016 16:16:22] "GET /js HTTP/1.1" 200 -
+2016-12-08 16:16:22,781 127.0.0.1 - - [08/Dec/2016 16:16:22] "GET /data/alarm_time HTTP/1.1" 200 -
+2016-12-08 16:16:22,784 127.0.0.1 - - [08/Dec/2016 16:16:22] "GET /data/alarm_time_check HTTP/1.1" 200 -
+2016-12-08 16:16:22,787 127.0.0.1 - - [08/Dec/2016 16:16:22] "GET /log/10 HTTP/1.1" 200 -
+2016-12-08 16:17:00,494 127.0.0.1 - - [08/Dec/2016 16:17:00] "GET / HTTP/1.1" 200 -
+2016-12-08 16:17:00,510 127.0.0.1 - - [08/Dec/2016 16:17:00] "GET /css HTTP/1.1" 200 -
+2016-12-08 16:17:00,511 127.0.0.1 - - [08/Dec/2016 16:17:00] "GET /js HTTP/1.1" 200 -
+2016-12-08 16:17:00,679 127.0.0.1 - - [08/Dec/2016 16:17:00] "GET /data/alarm_time HTTP/1.1" 200 -
+2016-12-08 16:17:00,681 127.0.0.1 - - [08/Dec/2016 16:17:00] "GET /data/alarm_time_check HTTP/1.1" 200 -
+2016-12-08 16:17:00,685 127.0.0.1 - - [08/Dec/2016 16:17:00] "GET /log/10 HTTP/1.1" 200 -
+2016-12-08 16:17:28,810 127.0.0.1 - - [08/Dec/2016 16:17:28] "GET / HTTP/1.1" 200 -
+2016-12-08 16:17:28,827 127.0.0.1 - - [08/Dec/2016 16:17:28] "GET /css HTTP/1.1" 200 -
+2016-12-08 16:17:28,828 127.0.0.1 - - [08/Dec/2016 16:17:28] "GET /js HTTP/1.1" 200 -
+2016-12-08 16:17:28,959 127.0.0.1 - - [08/Dec/2016 16:17:28] "GET /data/alarm_time HTTP/1.1" 200 -
+2016-12-08 16:17:28,960 127.0.0.1 - - [08/Dec/2016 16:17:28] "GET /data/alarm_time_check HTTP/1.1" 200 -
+2016-12-08 16:17:28,962 127.0.0.1 - - [08/Dec/2016 16:17:28] "GET /log/10 HTTP/1.1" 200 -
+2016-12-08 16:18:54,488 URL being requested: GET https://www.googleapis.com/calendar/v3/calendars/primary/events?orderBy=startTime&alt=json&singleEvents=true&timeMin=2016-12-08T16%3A18%3A54.468752Z&maxResults=10
+2016-12-08 16:18:54,901 Got alarm time 2016-12-09T06:15:00Z from Google API
+2016-12-08 16:20:38,651 127.0.0.1 - - [08/Dec/2016 16:20:38] "GET / HTTP/1.1" 200 -
+2016-12-08 16:20:38,670 127.0.0.1 - - [08/Dec/2016 16:20:38] "GET /css HTTP/1.1" 200 -
+2016-12-08 16:20:38,672 127.0.0.1 - - [08/Dec/2016 16:20:38] "GET /js HTTP/1.1" 200 -
+2016-12-08 16:20:38,922 127.0.0.1 - - [08/Dec/2016 16:20:38] "GET /data/alarm_time HTTP/1.1" 200 -
+2016-12-08 16:20:38,923 127.0.0.1 - - [08/Dec/2016 16:20:38] "GET /data/alarm_time_check HTTP/1.1" 200 -
+2016-12-08 16:20:38,924 127.0.0.1 - - [08/Dec/2016 16:20:38] "GET /log/10 HTTP/1.1" 200 -
+2016-12-08 16:21:46,098 127.0.0.1 - - [08/Dec/2016 16:21:46] "GET / HTTP/1.1" 200 -
+2016-12-08 16:21:46,122 127.0.0.1 - - [08/Dec/2016 16:21:46] "GET /css HTTP/1.1" 200 -
+2016-12-08 16:21:46,123 127.0.0.1 - - [08/Dec/2016 16:21:46] "GET /js HTTP/1.1" 200 -
+2016-12-08 16:21:46,239 127.0.0.1 - - [08/Dec/2016 16:21:46] "GET /data/alarm_time HTTP/1.1" 200 -
+2016-12-08 16:21:46,245 127.0.0.1 - - [08/Dec/2016 16:21:46] "GET /data/alarm_time_check HTTP/1.1" 200 -
+2016-12-08 16:21:46,248 127.0.0.1 - - [08/Dec/2016 16:21:46] "GET /log/10 HTTP/1.1" 200 -
+2016-12-08 16:21:59,751 127.0.0.1 - - [08/Dec/2016 16:21:59] "GET / HTTP/1.1" 200 -
+2016-12-08 16:21:59,777 127.0.0.1 - - [08/Dec/2016 16:21:59] "GET /css HTTP/1.1" 200 -
+2016-12-08 16:21:59,778 127.0.0.1 - - [08/Dec/2016 16:21:59] "GET /js HTTP/1.1" 200 -
+2016-12-08 16:21:59,908 127.0.0.1 - - [08/Dec/2016 16:21:59] "GET /data/alarm_time HTTP/1.1" 200 -
+2016-12-08 16:21:59,909 127.0.0.1 - - [08/Dec/2016 16:21:59] "GET /data/alarm_time_check HTTP/1.1" 200 -
+2016-12-08 16:21:59,911 127.0.0.1 - - [08/Dec/2016 16:21:59] "GET /log/10 HTTP/1.1" 200 -
+2016-12-08 16:22:15,632 127.0.0.1 - - [08/Dec/2016 16:22:15] "GET / HTTP/1.1" 200 -
+2016-12-08 16:22:15,651 127.0.0.1 - - [08/Dec/2016 16:22:15] "GET /css HTTP/1.1" 200 -
+2016-12-08 16:22:15,654 127.0.0.1 - - [08/Dec/2016 16:22:15] "GET /js HTTP/1.1" 200 -
+2016-12-08 16:22:15,774 127.0.0.1 - - [08/Dec/2016 16:22:15] "GET /data/alarm_time HTTP/1.1" 200 -
+2016-12-08 16:22:15,789 127.0.0.1 - - [08/Dec/2016 16:22:15] "GET /data/alarm_time_check HTTP/1.1" 200 -
+2016-12-08 16:22:15,796 127.0.0.1 - - [08/Dec/2016 16:22:15] "GET /log/10 HTTP/1.1" 200 -
+2016-12-08 16:23:54,939 URL being requested: GET https://www.googleapis.com/calendar/v3/calendars/primary/events?orderBy=startTime&alt=json&singleEvents=true&timeMin=2016-12-08T16%3A23%3A54.922418Z&maxResults=10
+2016-12-08 16:23:55,332 Got alarm time 2016-12-09T06:15:00Z from Google API
+2016-12-08 16:25:19,471 127.0.0.1 - - [08/Dec/2016 16:25:19] "GET / HTTP/1.1" 200 -
+2016-12-08 16:25:19,494 127.0.0.1 - - [08/Dec/2016 16:25:19] "GET /css HTTP/1.1" 200 -
+2016-12-08 16:25:19,496 127.0.0.1 - - [08/Dec/2016 16:25:19] "GET /js HTTP/1.1" 200 -
+2016-12-08 16:25:19,811 127.0.0.1 - - [08/Dec/2016 16:25:19] "GET /data/alarm_time HTTP/1.1" 200 -
+2016-12-08 16:25:19,814 127.0.0.1 - - [08/Dec/2016 16:25:19] "GET /data/alarm_time_check HTTP/1.1" 200 -
+2016-12-08 16:25:19,816 127.0.0.1 - - [08/Dec/2016 16:25:19] "GET /log/10 HTTP/1.1" 200 -
+2016-12-08 16:25:35,097 127.0.0.1 - - [08/Dec/2016 16:25:35] "GET / HTTP/1.1" 200 -
+2016-12-08 16:25:35,130 127.0.0.1 - - [08/Dec/2016 16:25:35] "GET /css HTTP/1.1" 200 -
+2016-12-08 16:25:35,141 127.0.0.1 - - [08/Dec/2016 16:25:35] "GET /js HTTP/1.1" 200 -
+2016-12-08 16:25:35,295 127.0.0.1 - - [08/Dec/2016 16:25:35] "GET /data/alarm_time HTTP/1.1" 200 -
+2016-12-08 16:25:35,298 127.0.0.1 - - [08/Dec/2016 16:25:35] "GET /data/alarm_time_check HTTP/1.1" 200 -
+2016-12-08 16:25:35,301 127.0.0.1 - - [08/Dec/2016 16:25:35] "GET /log/10 HTTP/1.1" 200 -
+2016-12-08 16:26:06,733 127.0.0.1 - - [08/Dec/2016 16:26:06] "GET / HTTP/1.1" 200 -
+2016-12-08 16:26:06,748 127.0.0.1 - - [08/Dec/2016 16:26:06] "GET /css HTTP/1.1" 200 -
+2016-12-08 16:26:06,750 127.0.0.1 - - [08/Dec/2016 16:26:06] "GET /js HTTP/1.1" 200 -
+2016-12-08 16:26:06,874 127.0.0.1 - - [08/Dec/2016 16:26:06] "GET /data/alarm_time HTTP/1.1" 200 -
+2016-12-08 16:26:06,876 127.0.0.1 - - [08/Dec/2016 16:26:06] "GET /data/alarm_time_check HTTP/1.1" 200 -
+2016-12-08 16:26:06,877 127.0.0.1 - - [08/Dec/2016 16:26:06] "GET /log/10 HTTP/1.1" 200 -
+2016-12-08 16:27:15,643 127.0.0.1 - - [08/Dec/2016 16:27:15] "GET / HTTP/1.1" 200 -
+2016-12-08 16:27:15,668 127.0.0.1 - - [08/Dec/2016 16:27:15] "GET /css HTTP/1.1" 200 -
+2016-12-08 16:27:15,669 127.0.0.1 - - [08/Dec/2016 16:27:15] "GET /js HTTP/1.1" 200 -
+2016-12-08 16:27:16,168 127.0.0.1 - - [08/Dec/2016 16:27:16] "GET /data/alarm_time HTTP/1.1" 200 -
+2016-12-08 16:27:16,173 127.0.0.1 - - [08/Dec/2016 16:27:16] "GET /data/alarm_time_check HTTP/1.1" 200 -
+2016-12-08 16:27:16,177 127.0.0.1 - - [08/Dec/2016 16:27:16] "GET /log/10 HTTP/1.1" 200 -
+2016-12-08 16:28:55,456 URL being requested: GET https://www.googleapis.com/calendar/v3/calendars/primary/events?orderBy=startTime&alt=json&singleEvents=true&timeMin=2016-12-08T16%3A28%3A55.439640Z&maxResults=10
+2016-12-08 16:28:55,837 Got alarm time 2016-12-09T06:15:00Z from Google API
+2016-12-08 16:33:55,869 URL being requested: GET https://www.googleapis.com/calendar/v3/calendars/primary/events?orderBy=startTime&alt=json&singleEvents=true&timeMin=2016-12-08T16%3A33%3A55.851973Z&maxResults=10
+2016-12-08 16:33:56,334 Got alarm time 2016-12-09T06:15:00Z from Google API
+2016-12-08 16:38:56,389 URL being requested: GET https://www.googleapis.com/calendar/v3/calendars/primary/events?orderBy=startTime&alt=json&singleEvents=true&timeMin=2016-12-08T16%3A38%3A56.378084Z&maxResults=10
+2016-12-08 16:38:56,964 Got alarm time 2016-12-09T06:15:00Z from Google API
+2016-12-08 16:43:56,989 URL being requested: GET https://www.googleapis.com/calendar/v3/calendars/primary/events?orderBy=startTime&alt=json&singleEvents=true&timeMin=2016-12-08T16%3A43%3A56.973585Z&maxResults=10
+2016-12-08 16:43:57,570 Got alarm time 2016-12-09T06:15:00Z from Google API
+2016-12-08 16:48:57,584 URL being requested: GET https://www.googleapis.com/calendar/v3/calendars/primary/events?orderBy=startTime&alt=json&singleEvents=true&timeMin=2016-12-08T16%3A48%3A57.577756Z&maxResults=10
+2016-12-08 16:48:58,188 Got alarm time 2016-12-09T06:15:00Z from Google API
+2016-12-08 16:52:24,180 127.0.0.1 - - [08/Dec/2016 16:52:24] "GET / HTTP/1.1" 200 -
+2016-12-08 16:52:24,195 127.0.0.1 - - [08/Dec/2016 16:52:24] "GET /css HTTP/1.1" 200 -
+2016-12-08 16:52:24,197 127.0.0.1 - - [08/Dec/2016 16:52:24] "GET /js HTTP/1.1" 200 -
+2016-12-08 16:52:24,470 127.0.0.1 - - [08/Dec/2016 16:52:24] "GET /data/alarm_time HTTP/1.1" 200 -
+2016-12-08 16:52:24,472 127.0.0.1 - - [08/Dec/2016 16:52:24] "GET /data/alarm_time_check HTTP/1.1" 200 -
+2016-12-08 16:52:24,473 127.0.0.1 - - [08/Dec/2016 16:52:24] "GET /log/10 HTTP/1.1" 200 -
+2016-12-08 16:52:40,318 127.0.0.1 - - [08/Dec/2016 16:52:40] "GET / HTTP/1.1" 200 -
+2016-12-08 16:52:40,335 127.0.0.1 - - [08/Dec/2016 16:52:40] "GET /css HTTP/1.1" 200 -
+2016-12-08 16:52:40,337 127.0.0.1 - - [08/Dec/2016 16:52:40] "GET /js HTTP/1.1" 200 -
+2016-12-08 16:52:40,494 127.0.0.1 - - [08/Dec/2016 16:52:40] "GET /data/alarm_time HTTP/1.1" 200 -
+2016-12-08 16:52:40,497 127.0.0.1 - - [08/Dec/2016 16:52:40] "GET /data/alarm_time_check HTTP/1.1" 200 -
+2016-12-08 16:52:40,500 127.0.0.1 - - [08/Dec/2016 16:52:40] "GET /log/10 HTTP/1.1" 200 -
+2016-12-08 16:53:07,898 127.0.0.1 - - [08/Dec/2016 16:53:07] "GET / HTTP/1.1" 200 -
+2016-12-08 16:53:07,916 127.0.0.1 - - [08/Dec/2016 16:53:07] "GET /css HTTP/1.1" 200 -
+2016-12-08 16:53:07,917 127.0.0.1 - - [08/Dec/2016 16:53:07] "GET /js HTTP/1.1" 200 -
+2016-12-08 16:53:08,095 127.0.0.1 - - [08/Dec/2016 16:53:08] "GET /data/alarm_time HTTP/1.1" 200 -
+2016-12-08 16:53:08,099 127.0.0.1 - - [08/Dec/2016 16:53:08] "GET /data/alarm_time_check HTTP/1.1" 200 -
+2016-12-08 16:53:08,105 127.0.0.1 - - [08/Dec/2016 16:53:08] "GET /log/10 HTTP/1.1" 200 -
+2016-12-08 16:53:54,727 127.0.0.1 - - [08/Dec/2016 16:53:54] "GET / HTTP/1.1" 200 -
+2016-12-08 16:53:54,749 127.0.0.1 - - [08/Dec/2016 16:53:54] "GET /css HTTP/1.1" 200 -
+2016-12-08 16:53:54,751 127.0.0.1 - - [08/Dec/2016 16:53:54] "GET /js HTTP/1.1" 200 -
+2016-12-08 16:53:54,916 127.0.0.1 - - [08/Dec/2016 16:53:54] "GET /data/alarm_time HTTP/1.1" 200 -
+2016-12-08 16:53:54,918 127.0.0.1 - - [08/Dec/2016 16:53:54] "GET /data/alarm_time_check HTTP/1.1" 200 -
+2016-12-08 16:53:54,921 127.0.0.1 - - [08/Dec/2016 16:53:54] "GET /log/10 HTTP/1.1" 200 -
+2016-12-08 16:53:58,319 URL being requested: GET https://www.googleapis.com/calendar/v3/calendars/primary/events?orderBy=startTime&alt=json&singleEvents=true&timeMin=2016-12-08T16%3A53%3A58.301626Z&maxResults=10
+2016-12-08 16:53:58,731 Got alarm time 2016-12-09T06:15:00Z from Google API
+2016-12-08 16:57:26,709 127.0.0.1 - - [08/Dec/2016 16:57:26] "GET / HTTP/1.1" 200 -
+2016-12-08 16:57:26,730 127.0.0.1 - - [08/Dec/2016 16:57:26] "GET /css HTTP/1.1" 200 -
+2016-12-08 16:57:26,731 127.0.0.1 - - [08/Dec/2016 16:57:26] "GET /js HTTP/1.1" 200 -
+2016-12-08 16:57:26,972 127.0.0.1 - - [08/Dec/2016 16:57:26] "GET /data/alarm_time HTTP/1.1" 200 -
+2016-12-08 16:57:26,974 127.0.0.1 - - [08/Dec/2016 16:57:26] "GET /data/alarm_time_check HTTP/1.1" 200 -
+2016-12-08 16:57:26,977 127.0.0.1 - - [08/Dec/2016 16:57:26] "GET /log/10 HTTP/1.1" 200 -
+2016-12-08 16:57:55,823 127.0.0.1 - - [08/Dec/2016 16:57:55] "GET / HTTP/1.1" 200 -
+2016-12-08 16:57:55,837 127.0.0.1 - - [08/Dec/2016 16:57:55] "GET /css HTTP/1.1" 200 -
+2016-12-08 16:57:55,838 127.0.0.1 - - [08/Dec/2016 16:57:55] "GET /js HTTP/1.1" 200 -
+2016-12-08 16:57:56,036 127.0.0.1 - - [08/Dec/2016 16:57:56] "GET /data/alarm_time HTTP/1.1" 200 -
+2016-12-08 16:57:56,039 127.0.0.1 - - [08/Dec/2016 16:57:56] "GET /data/alarm_time_check HTTP/1.1" 200 -
+2016-12-08 16:57:56,041 127.0.0.1 - - [08/Dec/2016 16:57:56] "GET /log/10 HTTP/1.1" 200 -
+2016-12-08 16:58:43,445 127.0.0.1 - - [08/Dec/2016 16:58:43] "GET / HTTP/1.1" 200 -
+2016-12-08 16:58:43,460 127.0.0.1 - - [08/Dec/2016 16:58:43] "GET /css HTTP/1.1" 200 -
+2016-12-08 16:58:43,462 127.0.0.1 - - [08/Dec/2016 16:58:43] "GET /js HTTP/1.1" 200 -
+2016-12-08 16:58:43,581 127.0.0.1 - - [08/Dec/2016 16:58:43] "GET /data/alarm_time HTTP/1.1" 200 -
+2016-12-08 16:58:43,583 127.0.0.1 - - [08/Dec/2016 16:58:43] "GET /data/alarm_time_check HTTP/1.1" 200 -
+2016-12-08 16:58:43,586 127.0.0.1 - - [08/Dec/2016 16:58:43] "GET /log/10 HTTP/1.1" 200 -
+2016-12-08 16:58:58,840 URL being requested: GET https://www.googleapis.com/calendar/v3/calendars/primary/events?orderBy=startTime&alt=json&singleEvents=true&timeMin=2016-12-08T16%3A58%3A58.834263Z&maxResults=10
+2016-12-08 16:58:59,118 Refreshing due to a 401 (attempt 1/2)
+2016-12-08 16:58:59,119 Refreshing access_token
+2016-12-08 16:58:59,693 Got alarm time 2016-12-09T06:15:00Z from Google API
+2016-12-08 16:59:10,893 127.0.0.1 - - [08/Dec/2016 16:59:10] "GET / HTTP/1.1" 200 -
+2016-12-08 16:59:10,918 127.0.0.1 - - [08/Dec/2016 16:59:10] "GET /css HTTP/1.1" 200 -
+2016-12-08 16:59:10,919 127.0.0.1 - - [08/Dec/2016 16:59:10] "GET /js HTTP/1.1" 200 -
+2016-12-08 16:59:11,046 127.0.0.1 - - [08/Dec/2016 16:59:11] "GET /data/alarm_time HTTP/1.1" 200 -
+2016-12-08 16:59:11,048 127.0.0.1 - - [08/Dec/2016 16:59:11] "GET /data/alarm_time_check HTTP/1.1" 200 -
+2016-12-08 16:59:11,051 127.0.0.1 - - [08/Dec/2016 16:59:11] "GET /log/10 HTTP/1.1" 200 -
+2016-12-08 16:59:51,036 127.0.0.1 - - [08/Dec/2016 16:59:51] "GET / HTTP/1.1" 200 -
+2016-12-08 16:59:51,052 127.0.0.1 - - [08/Dec/2016 16:59:51] "GET /css HTTP/1.1" 200 -
+2016-12-08 16:59:51,054 127.0.0.1 - - [08/Dec/2016 16:59:51] "GET /js HTTP/1.1" 200 -
+2016-12-08 16:59:51,159 127.0.0.1 - - [08/Dec/2016 16:59:51] "GET /data/alarm_time HTTP/1.1" 200 -
+2016-12-08 16:59:51,164 127.0.0.1 - - [08/Dec/2016 16:59:51] "GET /data/alarm_time_check HTTP/1.1" 200 -
+2016-12-08 16:59:51,166 127.0.0.1 - - [08/Dec/2016 16:59:51] "GET /log/10 HTTP/1.1" 200 -
+2016-12-08 17:00:46,408 127.0.0.1 - - [08/Dec/2016 17:00:46] "GET / HTTP/1.1" 200 -
+2016-12-08 17:00:46,426 127.0.0.1 - - [08/Dec/2016 17:00:46] "GET /css HTTP/1.1" 200 -
+2016-12-08 17:00:46,427 127.0.0.1 - - [08/Dec/2016 17:00:46] "GET /js HTTP/1.1" 200 -
+2016-12-08 17:00:46,599 127.0.0.1 - - [08/Dec/2016 17:00:46] "GET /data/alarm_time HTTP/1.1" 200 -
+2016-12-08 17:00:46,602 127.0.0.1 - - [08/Dec/2016 17:00:46] "GET /data/alarm_time_check HTTP/1.1" 200 -
+2016-12-08 17:00:46,604 127.0.0.1 - - [08/Dec/2016 17:00:46] "GET /log/10 HTTP/1.1" 200 -
+2016-12-08 17:01:08,638 127.0.0.1 - - [08/Dec/2016 17:01:08] "GET / HTTP/1.1" 200 -
+2016-12-08 17:01:08,650 127.0.0.1 - - [08/Dec/2016 17:01:08] "GET /css HTTP/1.1" 200 -
+2016-12-08 17:01:08,652 127.0.0.1 - - [08/Dec/2016 17:01:08] "GET /js HTTP/1.1" 200 -
+2016-12-08 17:01:08,727 127.0.0.1 - - [08/Dec/2016 17:01:08] "GET /data/alarm_time HTTP/1.1" 200 -
+2016-12-08 17:01:08,728 127.0.0.1 - - [08/Dec/2016 17:01:08] "GET /data/alarm_time_check HTTP/1.1" 200 -
+2016-12-08 17:01:08,732 127.0.0.1 - - [08/Dec/2016 17:01:08] "GET /log/10 HTTP/1.1" 200 -
+2016-12-08 17:01:20,845 Log level set to info
+2016-12-08 17:01:20,846 127.0.0.1 - - [08/Dec/2016 17:01:20] "GET /loglevel/info HTTP/1.1" 200 -
+2016-12-08 17:01:20,850 127.0.0.1 - - [08/Dec/2016 17:01:20] "GET /log/10 HTTP/1.1" 200 -
+2016-12-08 17:01:23,877 Log level set to debug
+2016-12-08 17:01:23,877 127.0.0.1 - - [08/Dec/2016 17:01:23] "GET /loglevel/debug HTTP/1.1" 200 -
+2016-12-08 17:01:23,883 127.0.0.1 - - [08/Dec/2016 17:01:23] "GET /log/10 HTTP/1.1" 200 -
+2016-12-08 17:01:27,753 Log level set to info
+2016-12-08 17:01:27,753 127.0.0.1 - - [08/Dec/2016 17:01:27] "GET /loglevel/info HTTP/1.1" 200 -
+2016-12-08 17:01:27,757 127.0.0.1 - - [08/Dec/2016 17:01:27] "GET /log/10 HTTP/1.1" 200 -
+2016-12-08 17:02:21,410 127.0.0.1 - - [08/Dec/2016 17:02:21] "GET / HTTP/1.1" 200 -
+2016-12-08 17:02:21,428 127.0.0.1 - - [08/Dec/2016 17:02:21] "GET /css HTTP/1.1" 200 -
+2016-12-08 17:02:21,431 127.0.0.1 - - [08/Dec/2016 17:02:21] "GET /js HTTP/1.1" 200 -
+2016-12-08 17:02:23,683 127.0.0.1 - - [08/Dec/2016 17:02:23] "GET /data/alarm_time HTTP/1.1" 200 -
+2016-12-08 17:02:23,685 127.0.0.1 - - [08/Dec/2016 17:02:23] "GET /data/alarm_time_check HTTP/1.1" 200 -
+2016-12-08 17:02:23,686 127.0.0.1 - - [08/Dec/2016 17:02:23] "GET /log/10 HTTP/1.1" 200 -
+2016-12-08 17:02:36,624 127.0.0.1 - - [08/Dec/2016 17:02:36] "GET /log/25 HTTP/1.1" 200 -
+2016-12-08 17:02:52,256 127.0.0.1 - - [08/Dec/2016 17:02:52] "GET / HTTP/1.1" 200 -
+2016-12-08 17:02:52,273 127.0.0.1 - - [08/Dec/2016 17:02:52] "GET /css HTTP/1.1" 200 -
+2016-12-08 17:02:52,274 127.0.0.1 - - [08/Dec/2016 17:02:52] "GET /js HTTP/1.1" 200 -
+2016-12-08 17:02:52,350 127.0.0.1 - - [08/Dec/2016 17:02:52] "GET /data/alarm_time HTTP/1.1" 200 -
+2016-12-08 17:02:52,353 127.0.0.1 - - [08/Dec/2016 17:02:52] "GET /data/alarm_time_check HTTP/1.1" 200 -
+2016-12-08 17:02:52,355 127.0.0.1 - - [08/Dec/2016 17:02:52] "GET /log/10 HTTP/1.1" 200 -
+2016-12-08 17:03:36,050 127.0.0.1 - - [08/Dec/2016 17:03:36] "GET / HTTP/1.1" 200 -
+2016-12-08 17:03:36,065 127.0.0.1 - - [08/Dec/2016 17:03:36] "GET /js HTTP/1.1" 200 -
+2016-12-08 17:03:36,440 127.0.0.1 - - [08/Dec/2016 17:03:36] "GET /data/alarm_time HTTP/1.1" 200 -
+2016-12-08 17:03:36,441 127.0.0.1 - - [08/Dec/2016 17:03:36] "GET /data/alarm_time_check HTTP/1.1" 200 -
+2016-12-08 17:03:36,443 127.0.0.1 - - [08/Dec/2016 17:03:36] "GET /log/10 HTTP/1.1" 200 -
+2016-12-08 17:03:59,799 URL being requested: GET https://www.googleapis.com/calendar/v3/calendars/primary/events?orderBy=startTime&alt=json&singleEvents=true&timeMin=2016-12-08T17%3A03%3A59.792689Z&maxResults=10
+2016-12-08 17:04:00,536 Got alarm time 2016-12-09T06:15:00Z from Google API
+2016-12-08 17:05:33,915 127.0.0.1 - - [08/Dec/2016 17:05:33] "GET / HTTP/1.1" 200 -
+2016-12-08 17:05:33,937 127.0.0.1 - - [08/Dec/2016 17:05:33] "GET /js HTTP/1.1" 200 -
+2016-12-08 17:05:34,022 127.0.0.1 - - [08/Dec/2016 17:05:34] "GET /data/alarm_time HTTP/1.1" 200 -
+2016-12-08 17:05:34,023 127.0.0.1 - - [08/Dec/2016 17:05:34] "GET /data/alarm_time_check HTTP/1.1" 200 -
+2016-12-08 17:05:34,024 127.0.0.1 - - [08/Dec/2016 17:05:34] "GET /log/10 HTTP/1.1" 200 -
+2016-12-08 17:09:00,648 URL being requested: GET https://www.googleapis.com/calendar/v3/calendars/primary/events?orderBy=startTime&alt=json&singleEvents=true&timeMin=2016-12-08T17%3A09%3A00.637506Z&maxResults=10
+2016-12-08 17:09:01,060 Got alarm time 2016-12-09T06:15:00Z from Google API
+2016-12-08 17:14:01,179 URL being requested: GET https://www.googleapis.com/calendar/v3/calendars/primary/events?orderBy=startTime&alt=json&singleEvents=true&timeMin=2016-12-08T17%3A14%3A01.170352Z&maxResults=10
+2016-12-08 17:14:01,617 Got alarm time 2016-12-09T06:15:00Z from Google API
+2016-12-08 17:19:01,737 URL being requested: GET https://www.googleapis.com/calendar/v3/calendars/primary/events?orderBy=startTime&alt=json&singleEvents=true&timeMin=2016-12-08T17%3A19%3A01.716501Z&maxResults=10
+2016-12-08 17:19:02,232 Got alarm time 2016-12-09T06:15:00Z from Google API
+2016-12-08 17:24:02,354 URL being requested: GET https://www.googleapis.com/calendar/v3/calendars/primary/events?orderBy=startTime&alt=json&singleEvents=true&timeMin=2016-12-08T17%3A24%3A02.312756Z&maxResults=10
+2016-12-08 17:24:02,759 Got alarm time 2016-12-09T06:15:00Z from Google API
+2016-12-08 17:29:02,868 URL being requested: GET https://www.googleapis.com/calendar/v3/calendars/primary/events?orderBy=startTime&alt=json&singleEvents=true&timeMin=2016-12-08T17%3A29%3A02.862346Z&maxResults=10
+2016-12-08 17:29:03,510 Got alarm time 2016-12-09T06:15:00Z from Google API
+2016-12-08 17:34:03,638 URL being requested: GET https://www.googleapis.com/calendar/v3/calendars/primary/events?orderBy=startTime&alt=json&singleEvents=true&timeMin=2016-12-08T17%3A34%3A03.620858Z&maxResults=10
+2016-12-08 17:34:05,037 Got alarm time 2016-12-09T06:15:00Z from Google API
+2016-12-08 17:39:05,070 URL being requested: GET https://www.googleapis.com/calendar/v3/calendars/primary/events?orderBy=startTime&alt=json&singleEvents=true&timeMin=2016-12-08T17%3A39%3A05.053175Z&maxResults=10
+2016-12-08 17:39:06,440 Got alarm time 2016-12-09T06:15:00Z from Google API
+2016-12-08 17:44:06,540 URL being requested: GET https://www.googleapis.com/calendar/v3/calendars/primary/events?orderBy=startTime&alt=json&singleEvents=true&timeMin=2016-12-08T17%3A44%3A06.526397Z&maxResults=10
+2016-12-08 17:44:07,121 Got alarm time 2016-12-09T06:15:00Z from Google API
+2016-12-08 17:49:07,200 URL being requested: GET https://www.googleapis.com/calendar/v3/calendars/primary/events?orderBy=startTime&alt=json&singleEvents=true&timeMin=2016-12-08T17%3A49%3A07.185563Z&maxResults=10
+2016-12-08 17:49:07,594 Got alarm time 2016-12-09T06:15:00Z from Google API
+2016-12-08 17:54:07,667 URL being requested: GET https://www.googleapis.com/calendar/v3/calendars/primary/events?orderBy=startTime&alt=json&singleEvents=true&timeMin=2016-12-08T17%3A54%3A07.654521Z&maxResults=10
+2016-12-08 17:54:10,375 Got alarm time 2016-12-09T06:15:00Z from Google API
+2016-12-08 17:56:52,219 127.0.0.1 - - [08/Dec/2016 17:56:52] "GET / HTTP/1.1" 200 -
+2016-12-08 17:56:52,250 127.0.0.1 - - [08/Dec/2016 17:56:52] "GET /js HTTP/1.1" 200 -
+2016-12-08 17:56:52,571 127.0.0.1 - - [08/Dec/2016 17:56:52] "GET /data/alarm_time HTTP/1.1" 200 -
+2016-12-08 17:56:52,572 127.0.0.1 - - [08/Dec/2016 17:56:52] "GET /data/alarm_time_check HTTP/1.1" 200 -
+2016-12-08 17:56:52,574 127.0.0.1 - - [08/Dec/2016 17:56:52] "GET /log/10 HTTP/1.1" 200 -
+2016-12-08 17:57:12,791 127.0.0.1 - - [08/Dec/2016 17:57:12] "GET /log/30 HTTP/1.1" 200 -
+2016-12-08 17:57:16,699 127.0.0.1 - - [08/Dec/2016 17:57:16] "GET /log/20 HTTP/1.1" 200 -
+2016-12-08 17:57:20,363 127.0.0.1 - - [08/Dec/2016 17:57:20] "GET /log/2 HTTP/1.1" 200 -
+2016-12-08 17:57:21,199 127.0.0.1 - - [08/Dec/2016 17:57:21] "GET /log/24 HTTP/1.1" 200 -
+2016-12-08 17:57:22,972 127.0.0.1 - - [08/Dec/2016 17:57:22] "GET /log/20 HTTP/1.1" 200 -
+2016-12-08 17:57:33,859 127.0.0.1 - - [08/Dec/2016 17:57:33] "GET / HTTP/1.1" 200 -
+2016-12-08 17:57:33,878 127.0.0.1 - - [08/Dec/2016 17:57:33] "GET /js HTTP/1.1" 200 -
+2016-12-08 17:57:33,964 127.0.0.1 - - [08/Dec/2016 17:57:33] "GET /data/alarm_time HTTP/1.1" 200 -
+2016-12-08 17:57:33,967 127.0.0.1 - - [08/Dec/2016 17:57:33] "GET /data/alarm_time_check HTTP/1.1" 200 -
+2016-12-08 17:57:33,969 127.0.0.1 - - [08/Dec/2016 17:57:33] "GET /log/10 HTTP/1.1" 200 -
+2016-12-08 17:57:41,173 127.0.0.1 - - [08/Dec/2016 17:57:41] "GET /log/50 HTTP/1.1" 200 -
+2016-12-08 17:58:49,561 127.0.0.1 - - [08/Dec/2016 17:58:49] "GET / HTTP/1.1" 200 -
+2016-12-08 17:58:49,586 127.0.0.1 - - [08/Dec/2016 17:58:49] "GET /js HTTP/1.1" 200 -
+2016-12-08 17:58:49,753 127.0.0.1 - - [08/Dec/2016 17:58:49] "GET /data/alarm_time HTTP/1.1" 200 -
+2016-12-08 17:58:49,754 127.0.0.1 - - [08/Dec/2016 17:58:49] "GET /data/alarm_time_check HTTP/1.1" 200 -
+2016-12-08 17:58:49,757 127.0.0.1 - - [08/Dec/2016 17:58:49] "GET /log/10 HTTP/1.1" 200 -
+2016-12-08 17:59:10,110 127.0.0.1 - - [08/Dec/2016 17:59:10] "GET /log/30 HTTP/1.1" 200 -
+2016-12-08 17:59:10,461 URL being requested: GET https://www.googleapis.com/calendar/v3/calendars/primary/events?orderBy=startTime&alt=json&singleEvents=true&timeMin=2016-12-08T17%3A59%3A10.446803Z&maxResults=10
+2016-12-08 17:59:10,693 Refreshing due to a 401 (attempt 1/2)
+2016-12-08 17:59:10,693 Refreshing access_token
+2016-12-08 17:59:11,360 Got alarm time 2016-12-09T06:15:00Z from Google API
+2016-12-08 17:59:15,321 127.0.0.1 - - [08/Dec/2016 17:59:15] "GET / HTTP/1.1" 200 -
+2016-12-08 17:59:15,345 127.0.0.1 - - [08/Dec/2016 17:59:15] "GET /js HTTP/1.1" 200 -
+2016-12-08 17:59:15,431 127.0.0.1 - - [08/Dec/2016 17:59:15] "GET /data/alarm_time HTTP/1.1" 200 -
+2016-12-08 17:59:15,433 127.0.0.1 - - [08/Dec/2016 17:59:15] "GET /data/alarm_time_check HTTP/1.1" 200 -
+2016-12-08 17:59:15,434 127.0.0.1 - - [08/Dec/2016 17:59:15] "GET /log/10 HTTP/1.1" 200 -
+2016-12-08 17:59:23,123 127.0.0.1 - - [08/Dec/2016 17:59:23] "GET /log/25 HTTP/1.1" 200 -
+2016-12-08 17:59:33,758 127.0.0.1 - - [08/Dec/2016 17:59:33] "GET / HTTP/1.1" 200 -
+2016-12-08 17:59:33,771 127.0.0.1 - - [08/Dec/2016 17:59:33] "GET /js HTTP/1.1" 200 -
+2016-12-08 17:59:34,910 127.0.0.1 - - [08/Dec/2016 17:59:34] "GET /data/alarm_time HTTP/1.1" 200 -
+2016-12-08 17:59:34,911 127.0.0.1 - - [08/Dec/2016 17:59:34] "GET /data/alarm_time_check HTTP/1.1" 200 -
+2016-12-08 17:59:34,913 127.0.0.1 - - [08/Dec/2016 17:59:34] "GET /log/10 HTTP/1.1" 200 -
+2016-12-08 17:59:42,061 127.0.0.1 - - [08/Dec/2016 17:59:42] "GET / HTTP/1.1" 200 -
+2016-12-08 17:59:42,076 127.0.0.1 - - [08/Dec/2016 17:59:42] "GET /js HTTP/1.1" 200 -
+2016-12-08 17:59:42,138 127.0.0.1 - - [08/Dec/2016 17:59:42] "GET /data/alarm_time HTTP/1.1" 200 -
+2016-12-08 17:59:42,139 127.0.0.1 - - [08/Dec/2016 17:59:42] "GET /data/alarm_time_check HTTP/1.1" 200 -
+2016-12-08 17:59:42,141 127.0.0.1 - - [08/Dec/2016 17:59:42] "GET /log/10 HTTP/1.1" 200 -
+2016-12-08 18:04:05,704 127.0.0.1 - - [08/Dec/2016 18:04:05] "GET / HTTP/1.1" 200 -
+2016-12-08 18:04:05,719 127.0.0.1 - - [08/Dec/2016 18:04:05] "GET /js HTTP/1.1" 200 -
+2016-12-08 18:04:05,916 127.0.0.1 - - [08/Dec/2016 18:04:05] "GET /data/alarm_time HTTP/1.1" 200 -
+2016-12-08 18:04:05,920 127.0.0.1 - - [08/Dec/2016 18:04:05] "GET /data/alarm_time_check HTTP/1.1" 200 -
+2016-12-08 18:04:05,923 127.0.0.1 - - [08/Dec/2016 18:04:05] "GET /log/10 HTTP/1.1" 200 -
+2016-12-08 18:04:11,491 URL being requested: GET https://www.googleapis.com/calendar/v3/calendars/primary/events?orderBy=startTime&alt=json&singleEvents=true&timeMin=2016-12-08T18%3A04%3A11.478867Z&maxResults=10
+2016-12-08 18:04:11,981 Got alarm time 2016-12-09T06:15:00Z from Google API
