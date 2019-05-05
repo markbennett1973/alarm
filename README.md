@@ -36,6 +36,6 @@ Install more dependencies:
 
 To start alarm clock on boot, add to /etc/rc.local:
 
-`sudo python /home/pi/alarm/launcher.sh &`
+`sudo /home/pi/alarm/launcher.sh &`
 
 On a desktop machine, run google_auth.py to generate google auth token, and save to google-credentials.json in alarm directory
