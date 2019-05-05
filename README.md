@@ -23,7 +23,10 @@ Get GPIO libarary: https://github.com/adafruit/Adafruit_Python_GPIO
 
 From GPIO directory: `sudo python setup.py install`
 
-enable i2c using sudo raspi-config (under interfacing options)
+run `sudo raspi-config`
+
+- enable i2c (under interfacing options)
+- set timezone (under localisation options)
 
 Install more dependencies:
 
