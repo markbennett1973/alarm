@@ -7,6 +7,7 @@ Code to run an alarm clock on a Raspberry Pi
 - burn new raspbian image to sd card
 - enable headless wifi and ssh config
 - get alarm repo
+- `chmod +x alarm/launcher.sh`
 
 Install python dependencies
 
@@ -35,6 +36,6 @@ Install more dependencies:
 
 To start alarm clock on boot, add to /etc/rc.local:
 
-`sudo python /home/pi/alarm/main.py &`
+`sudo python /home/pi/alarm/launcher.sh &`
 
 On a desktop machine, run google_auth.py to generate google auth token, and save to google-credentials.json in alarm directory
