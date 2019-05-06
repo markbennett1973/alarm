@@ -8,6 +8,7 @@ Code to run an alarm clock on a Raspberry Pi
 - enable headless wifi and ssh config
 - get alarm repo
 - `chmod +x alarm/launcher.sh`
+- upload a suitable piece of music to `alarm.mp3`
 
 Install python dependencies
 
